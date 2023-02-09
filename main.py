@@ -1,10 +1,5 @@
-from bs4 import BeautifulSoup
-import requests
-import re
-from io import StringIO
-from html.parser import HTMLParser
-import csv
 import os
+import pandas as pd
 
 #region CLASSES
 
@@ -19,67 +14,28 @@ class bcolors:
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
 
-class MLStripper(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.reset()
-        self.strict = False
-        self.convert_charrefs= True
-        self.text = StringIO()
-    def handle_data(self, d):
-        self.text.write(d)
-    def get_data(self):
-        return self.text.getvalue()
-
 #endregion
 
 #region FUNCTIONS
-
-def strip_tags(html):
-    s = MLStripper()
-    s.feed(html)
-    return s.get_data()
 
 #endregion
 
 #region MAIN
 
-page = requests.get("https://deadbydaylight.fandom.com/wiki/Perks#List_of_All_Available_Perks")
-soup = BeautifulSoup(page.text, "html.parser")
-
-survivor_perk_table = soup.select("table.wikitable.sortable")[0]
-survivor_perk_perkId = 0
-survivor_perk_icons = survivor_perk_table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
-survivor_perk_names = survivor_perk_table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
-survivor_perk_descriptions = survivor_perk_table.find_all("div", attrs={"class":"rawPerkDesc"})
-survivor_perk_surivorIds = survivor_perk_table.find_all("img", attrs={"alt":re.compile("charSelect")})
-
-if os.path.exists("./csv/survivorPerk.csv"):
+if os.path.exists("./csv/survivorPerk.csv") and os.path.exists("./csv/killerPerk.csv"):
     os.remove("./csv/survivorPerk.csv")
 
-file = open("./csv/survivorPerk.csv", "w", newline="")
-writer = csv.writer(file)
-writer.writerow(["id", "icon", "name", "description", "survivorID"])
+df = pd.read_html("https://deadbydaylight.fandom.com/wiki/Perks")
 
-for perk_icon, perk_name, perk_description, perk_survivorId in zip(survivor_perk_icons, survivor_perk_names, survivor_perk_descriptions, survivor_perk_surivorIds):
-    print("--------------------------------\n--------------------------------\n")
-    
-    if (perk_name.attrs["alt"] in ["Dark Sense", "Déjà Vu", "Guardian", "Hope", "Inner Healing"]):
-        # DONT ITERATE ON survivor_perk_surivorIds
-        # FORCE Id = 0
-        print(bcolors.FAIL + "GENERAL PERK" + bcolors.ENDC)
-    
-    print(bcolors.OKGREEN  + "ID: {}\nIcon: {}\n\nName: {}\n\nDescription: {}Survivor: {}\n".format(str(survivor_perk_perkId), perk_icon.attrs["data-src"], perk_name.attrs["alt"], strip_tags(perk_description.text), perk_survivorId.attrs["alt"].split()[0][1:]) + bcolors.ENDC)
-    writer.writerow([str(survivor_perk_perkId), perk_icon.attrs["data-src"], perk_name.attrs["alt"], strip_tags(perk_description.text), perk_survivorId.attrs["alt"].split()[0][1:]])
-    survivor_perk_perkId+=1
+print(df[len(df) - 3]) # Survivor perk table
+print(df[len(df) - 2]) # Killer perk table
 
-print(bcolors.OKCYAN + "survivorPerks.csv created!" + bcolors.OKCYAN)
-file.close()
+df[len(df) - 3].to_csv("./csv/survivorPerk.csv")
+df[len(df) - 2].to_csv("./csv/killerPerk.csv")
+
+print(bcolors.OKGREEN + "survivorPerks.csv created!" + bcolors.OKCYAN)
+print(bcolors.OKGREEN + "killerPerks.csv created!" + bcolors.OKCYAN)
 
 #endregion
 
 # Source: https://github.com/gatheringhallstudios/MHWorldData
-# b(text) - Boldes the text: '''text'''
-# i(text) - Italic style for text: ''text''
-
-#SCRAPE 4th element in <tr></tr> (<th>)
