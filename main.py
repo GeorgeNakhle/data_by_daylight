@@ -1,5 +1,5 @@
 import os
-import shutil
+import pandas as pd
 
 #region CLASSES
 
@@ -18,45 +18,23 @@ class bcolors:
 
 #region FUNCTIONS
 
-def clearFolder(folder):
-    for filename in os.listdir(folder):
-        file_path = os.path.join(folder, filename)
-        try:
-            if os.path.isfile(file_path) or os.path.islink(file_path):
-                os.unlink(file_path)
-            elif os.path.isdir(file_path):
-                shutil.rmtree(file_path)
-        except Exception as e:
-            print('Failed to delete %s. Reason: %s' % (file_path, e))
-
-def successMessage(msg):
-    print(bcolors.OKGREEN + "{} created!".format(msg) + bcolors.ENDC)
-
-def createSurvivorCSV():
-
-    successMessage("survivor.csv")
-
-def createKillerCSV():
-
-    successMessage("killer.csv")
-
-def createSurvivorPerkCSV():
-
-    successMessage("survivorPerk.csv")
-
-def createKillerPerkCSV():
-
-    successMessage("killerPerk.csv")
-
 #endregion
 
 #region MAIN
 
-clearFolder("./csv/")
-createSurvivorCSV()
-createKillerCSV()
-createSurvivorPerkCSV()
-createKillerPerkCSV()
+if os.path.exists("./csv/survivorPerk.csv") and os.path.exists("./csv/killerPerk.csv"):
+    os.remove("./csv/survivorPerk.csv")
+
+df = pd.read_html("https://deadbydaylight.fandom.com/wiki/Perks")
+
+print(df[len(df) - 3]) # Survivor perk table
+print(df[len(df) - 2]) # Killer perk table
+
+df[len(df) - 3].to_csv("./csv/survivorPerk.csv")
+df[len(df) - 2].to_csv("./csv/killerPerk.csv")
+
+print(bcolors.OKGREEN + "survivorPerks.csv created!" + bcolors.OKCYAN)
+print(bcolors.OKGREEN + "killerPerks.csv created!" + bcolors.OKCYAN)
 
 #endregion
 
