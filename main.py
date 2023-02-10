@@ -5,6 +5,7 @@ from io import StringIO
 from html.parser import HTMLParser
 import csv
 import os
+import shutil
 
 #region CLASSES
 
@@ -65,41 +66,44 @@ def createKillerCSV():
     print("WIP")
 
 def createSurvivorPerkCSV():
-    page = requests.get("https://deadbydaylight.fandom.com/wiki/Perks#List_of_All_Available_Perks")
-    soup = BeautifulSoup(page.text, "html.parser")
-
-    survivor_perk_table = soup.select("table.wikitable.sortable")[0]
-    survivor_perk_perkId = 0
-    survivor_perk_icons = survivor_perk_table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
-    survivor_perk_names = survivor_perk_table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
-    survivor_perk_descriptions = survivor_perk_table.find_all("div", attrs={"class":"rawPerkDesc"})
-    survivor_perk_surivorIds = survivor_perk_table.find_all("img", attrs={"alt":re.compile("charSelect")})
-
-    if os.path.exists("./csv/survivorPerk.csv"):
-        os.remove("./csv/survivorPerk.csv")
-
     file = open("./csv/survivorPerk.csv", "w", newline="")
     writer = csv.writer(file)
     writer.writerow(["id", "icon", "name", "description", "survivorID"])
 
-    for perk_icon, perk_name, perk_description, perk_survivorId in zip(survivor_perk_icons, survivor_perk_names, survivor_perk_descriptions, survivor_perk_surivorIds):
+    page = requests.get("https://deadbydaylight.fandom.com/wiki/Perks")
+    soup = BeautifulSoup(page.text, "html.parser")
+    table = soup.select("table.wikitable.sortable")[0]
+
+    # Table data
+    icons = table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
+    names = table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
+    descriptions = table.find_all("div", attrs={"class":"rawPerkDesc"})
+    survivorIds = table.find_all("img", attrs={"alt":re.compile("charSelect")})
+    survivorIdIndex = 0
+
+    # General survivor perks
+    general_table = soup.select("table.wikitable")[0]
+    general_names = general_table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
+    for i in range(0, len(general_names)):
+        general_names[i] = general_names[i].attrs["alt"]
+
+    for i in range(0, len(icons)):
+        # survivorID set to 0 if general perk
+        if (names[i].attrs["alt"] in general_names):
+            survivorId = 0
+        else:
+            survivorId = survivorIds[survivorIdIndex].attrs["alt"].split()[0][1:]
+            survivorIdIndex+=1
+
         print("--------------------------------\n--------------------------------\n")
-        
-        if (perk_name.attrs["alt"] in ["Dark Sense", "Déjà Vu", "Guardian", "Hope", "Inner Healing"]):
-            # DONT ITERATE ON survivor_perk_surivorIds
-            # FORCE Id = 0
-            print(bcolors.FAIL + "GENERAL PERK" + bcolors.ENDC)
-        
-        print(bcolors.WARNING  + "ID: {}\nIcon: {}\n\nName: {}\n\nDescription: {}Survivor: {}\n".format(str(survivor_perk_perkId), perk_icon.attrs["data-src"], perk_name.attrs["alt"], strip_tags(perk_description.text), perk_survivorId.attrs["alt"].split()[0][1:]) + bcolors.ENDC)
-        writer.writerow([str(survivor_perk_perkId), perk_icon.attrs["data-src"], perk_name.attrs["alt"], strip_tags(perk_description.text), perk_survivorId.attrs["alt"].split()[0][1:]])
-        survivor_perk_perkId+=1
+        print(bcolors.WARNING  + "Id: {}\nIcon: {}\nName: {}\n\nDescription: {}Survivor: {}\n".format(str(i), icons[i].attrs["data-src"], names[i].attrs["alt"], strip_tags(descriptions[i].text), survivorId) + bcolors.ENDC)
+        writer.writerow([str(i), icons[i].attrs["data-src"], names[i].attrs["alt"], strip_tags(descriptions[i].text), survivorId])
 
     successMessage("survivorPerks.csv")
     file.close()
 
 def createKillerPerkCSV():
     print("WIP")
-
 
 #endregion
 
