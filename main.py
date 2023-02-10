@@ -1,8 +1,3 @@
-from bs4 import BeautifulSoup
-import requests
-import re
-from io import StringIO
-from html.parser import HTMLParser
 import csv
 import os
 import shutil
@@ -19,18 +14,6 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
-
-class MLStripper(HTMLParser):
-    def __init__(self):
-        super().__init__()
-        self.reset()
-        self.strict = False
-        self.convert_charrefs= True
-        self.text = StringIO()
-    def handle_data(self, d):
-        self.text.write(d)
-    def get_data(self):
-        return self.text.getvalue()
 
 #endregion
 
@@ -52,11 +35,6 @@ def clearFolder(folder):
 def successMessage(file):
     print(bcolors.OKGREEN + "{} created!".format(file) + bcolors.ENDC)
 
-def strip_tags(html):
-    s = MLStripper()
-    s.feed(html)
-    return s.get_data()
-
 #endregion
 
 def createSurvivorCSV():
@@ -66,40 +44,13 @@ def createKillerCSV():
     print("WIP")
 
 def createSurvivorPerkCSV():
-    file = open("./csv/survivorPerk.csv", "w", newline="")
+    file = open("./csv/survivor_perk.csv", "w", newline="")
     writer = csv.writer(file)
     writer.writerow(["id", "icon", "name", "description", "survivorID"])
 
-    page = requests.get("https://deadbydaylight.fandom.com/wiki/Perks")
-    soup = BeautifulSoup(page.text, "html.parser")
-    table = soup.select("table.wikitable.sortable")[0]
+    # DBD TRICKY API STUFF lol
 
-    # Table data
-    icons = table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
-    names = table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
-    descriptions = table.find_all("div", attrs={"class":"rawPerkDesc"})
-    survivorIds = table.find_all("img", attrs={"alt":re.compile("charSelect")})
-    survivorIdIndex = 0
-
-    # General survivor perks
-    general_table = soup.select("table.wikitable")[0]
-    general_names = general_table.find_all("img", attrs={"data-image-name":re.compile("IconPerks")})
-    for i in range(0, len(general_names)):
-        general_names[i] = general_names[i].attrs["alt"]
-
-    for i in range(0, len(icons)):
-        # survivorID set to 0 if general perk
-        if (names[i].attrs["alt"] in general_names):
-            survivorId = 0
-        else:
-            survivorId = survivorIds[survivorIdIndex].attrs["alt"].split()[0][1:]
-            survivorIdIndex+=1
-
-        print("--------------------------------\n--------------------------------\n")
-        print(bcolors.WARNING  + "Id: {}\nIcon: {}\nName: {}\n\nDescription: {}Survivor: {}\n".format(str(i), icons[i].attrs["data-src"], names[i].attrs["alt"], strip_tags(descriptions[i].text), survivorId) + bcolors.ENDC)
-        writer.writerow([str(i), icons[i].attrs["data-src"], names[i].attrs["alt"], strip_tags(descriptions[i].text), survivorId])
-
-    successMessage("survivorPerks.csv")
+    successMessage("survivor_perk.csv")
     file.close()
 
 def createKillerPerkCSV():
@@ -108,8 +59,6 @@ def createKillerPerkCSV():
 #endregion
 
 #region MAIN
-
-
 
 clearFolder("./csv/")
 #createSurvivorCSV()
@@ -120,5 +69,11 @@ createSurvivorPerkCSV()
 #endregion
 
 # Source: https://github.com/gatheringhallstudios/MHWorldData
-# b(text) - Boldes the text: '''text'''
-# i(text) - Italic style for text: ''text''
+# DB Model: https://lucid.app/lucidchart/9bb20e80-bc4d-4554-b7de-69b98f221707/edit?view_items=vfXvHWz-LJRf&invitationId=inv_6be87b84-7a83-4069-a5f2-9a2da022a2b1
+
+# vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+# vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+# vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+# vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+# Use https://dbd.tricky.lol/api for everything that you can
+# Default images
