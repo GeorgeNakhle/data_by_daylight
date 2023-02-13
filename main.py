@@ -1,6 +1,8 @@
-import csv
 import os
 import shutil
+import json
+import requests
+import csv
 
 #region CLASSES
 
@@ -37,6 +39,20 @@ def successMessage(file):
 
 #endregion
 
+def createMetadataCSV():
+    file = open("./source_data/metadata.csv", "w", newline="")
+    writer = csv.writer(file)
+    writer.writerow(["endpoint", "version", "lastupdate"])
+
+    res = requests.get("https://dbd.tricky.lol/api/versions")
+    response = json.loads(res.text)
+
+    for key, value in response.items():
+        writer.writerow([key, value["version"], value["lastupdate"]])
+
+    file.close()
+    successMessage("metadata.csv")
+
 def createSurvivorCSV():
     print("WIP")
 
@@ -44,14 +60,8 @@ def createKillerCSV():
     print("WIP")
 
 def createSurvivorPerkCSV():
-    file = open("./csv/survivor_perk.csv", "w", newline="")
-    writer = csv.writer(file)
-    writer.writerow(["id", "icon", "name", "description", "survivorID"])
+    print("WIP")
 
-    # DBD TRICKY API STUFF lol
-
-    successMessage("survivor_perk.csv")
-    file.close()
 
 def createKillerPerkCSV():
     print("WIP")
@@ -60,10 +70,11 @@ def createKillerPerkCSV():
 
 #region MAIN
 
-clearFolder("./csv/")
+clearFolder("./source_data/")
+createMetadataCSV()
 #createSurvivorCSV()
 #createKillerCSV()
-createSurvivorPerkCSV()
+#createSurvivorPerkCSV()
 #createKillerPerkCSV()
 
 #endregion
@@ -76,4 +87,4 @@ createSurvivorPerkCSV()
 # vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 # vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 # Use https://dbd.tricky.lol/api for everything that you can
-# Default images
+# Default images: https://packs.dbdicontoolbox.com/Dead-By-Daylight-Default-Icons.zip
