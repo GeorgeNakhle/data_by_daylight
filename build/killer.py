@@ -1,6 +1,6 @@
 from imports import *
 
-def createKillerCSV():
+def killer():
     file = open("./source_data/killer.csv", "w", newline="", encoding="utf-8")
     writer = csv.writer(file)
     writer.writerow(["id", "dlcID", "powerID", "name", "difficulty", "gender", "bio", "lore", "speedMS", "speedPercentage", "terrorRadius", "image"])
@@ -8,6 +8,7 @@ def createKillerCSV():
     res = requests.get("https://dbd.tricky.lol/api/characters?role=killer")
     response = json.loads(res.text)
 
+    # Key, Value because url doesn't return array
     for key, value in response.items():
         writer.writerow([key, value["dlc"], value["item"], value["name"], difficulty[value["difficulty"]].value, gender[value["gender"]].value, value["bio"], value["story"], getSpeedMS(value["tunables"]["maxwalkspeed"]), getSpeedPercentage(value["tunables"]["maxwalkspeed"]), getTerrorRadius(value["tunables"]["terrorradius"]), getImagePath(value["image"])])
 

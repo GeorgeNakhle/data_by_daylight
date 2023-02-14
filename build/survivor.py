@@ -1,6 +1,6 @@
 from imports import *
 
-def createSurvivorCSV():
+def survivor():
     file = open("./source_data/survivor.csv", "w", newline="", encoding="utf-8")
     writer = csv.writer(file)
     writer.writerow(["id", "dlcID", "name", "gender", "bio", "lore", "image"])

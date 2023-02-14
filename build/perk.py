@@ -1,6 +1,6 @@
 from imports import *
 
-def createPerkCSV():
+def perk():
     file = open("./source_data/perk.csv", "w", newline="", encoding="utf-8")
     writer = csv.writer(file)
     writer.writerow(["id", "survivorID", "killerID", "name", "role", "description", "tunables", "teachable", "image"])
@@ -8,6 +8,7 @@ def createPerkCSV():
     res = requests.get("https://dbd.tricky.lol/api/perks")
     response = json.loads(res.text)
 
+    # Key, Value because url doesn't return array
     for key, value in response.items():
         if value["character"] == None:
             # General perk (any)

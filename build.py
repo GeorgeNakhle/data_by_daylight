@@ -3,14 +3,16 @@ from build.metadata import *
 from build.survivor import *
 from build.killer import *
 from build.perk import *
+from build.dlc import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
 clearFolder("./source_data/")
-# createMetadataCSV()
-# createSurvivorCSV()
-# createKillerCSV()
-createPerkCSV()
+# metadata()
+# survivor()
+# killer()
+# perk()
+dlc()
 
 #endregion ################################################################################################
 

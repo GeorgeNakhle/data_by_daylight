@@ -1,6 +1,6 @@
 from imports import *
 
-def createMetadataCSV():
+def metadata():
     file = open("./source_data/metadata.csv", "w", newline="", encoding="utf-8")
     writer = csv.writer(file)
     writer.writerow(["endpoint", "version", "lastupdate"])
