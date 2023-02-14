@@ -38,6 +38,14 @@ class role(Enum):
     survivor = 'Survivor'
     killer = 'Killer'
 
+class rarity(Enum):
+    common = 'Common'
+    uncommon = 'Uncommon'
+    rare = 'Rare'
+    veryrare = 'Very Rare'
+    ultrarare = 'Ultra Rare'
+    specialevent = 'Special Event'
+
 #endregion
 
 #region FUNCTIONS

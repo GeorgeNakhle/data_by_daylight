@@ -4,6 +4,7 @@ from build.survivor import *
 from build.killer import *
 from build.perk import *
 from build.dlc import *
+from build.offering import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -12,7 +13,8 @@ clearFolder("./source_data/")
 # survivor()
 # killer()
 # perk()
-dlc()
+# dlc()
+offering()
 
 #endregion ################################################################################################
 
