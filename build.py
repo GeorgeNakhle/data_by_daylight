@@ -5,6 +5,7 @@ from build.killer import *
 from build.perk import *
 from build.dlc import *
 from build.offering import *
+from build.map import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -14,7 +15,8 @@ clearFolder("./source_data/")
 # killer()
 # perk()
 # dlc()
-offering()
+# offering()
+# map()
 
 #endregion ################################################################################################
 

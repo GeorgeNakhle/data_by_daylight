@@ -10,12 +10,15 @@ def offering():
 
     # Key, Value because url doesn't return array
     for key, value in response.items():
+        if value["name"] == None:
+            continue
+
         if value["role"] == None:
             roleVal = value["role"]
         else:
             roleVal = role[value["role"]].value
 
-        writer.writerow([key, value["name"], roleVal, rarity[value["rarity"]].value, value["description"], value["tags"], value["retired"], value["image"]])
+        writer.writerow([key, value["name"], roleVal, rarity[value["rarity"]].value, value["description"], value["tags"], value["retired"], getImagePath(value["image"])])
 
     file.close()
     successMessage("offering.csv")

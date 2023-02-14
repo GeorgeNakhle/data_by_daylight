@@ -51,6 +51,8 @@ class rarity(Enum):
 #region FUNCTIONS
 
 def clearFolder(folder):
+    if folder == None:
+        return
     for filename in os.listdir(folder):
         file_path = os.path.join(folder, filename)
         try:
@@ -62,21 +64,31 @@ def clearFolder(folder):
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
 def getImagePath(url):
+    if url == None:
+        return
     path = "images/"
     for folder in url.split('/')[2:]:
         path += "{}/".format(folder)
     return path[:-1]
 
 def getSpeedMS(value):
+    if value == None:
+        return
     return value / 100;
 
 def getSpeedPercentage(value):
+    if value == None:
+        return
     return 100 * value / 400;
 
 def getTerrorRadius(value):
+    if value == None:
+        return
     return value / 100;
 
 def successMessage(file):
+    if file == None:
+        return
     print(bcolors.OKGREEN + "{} created!".format(file) + bcolors.ENDC)
 
 #endregion
