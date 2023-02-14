@@ -34,6 +34,10 @@ class gender(Enum):
     multiple = 'Multiple'
     nothuman = 'N/A'
 
+class role(Enum):
+    survivor = 'Survivor'
+    killer = 'Killer'
+
 #endregion
 
 #region FUNCTIONS
