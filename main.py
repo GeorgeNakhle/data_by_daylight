@@ -3,8 +3,9 @@ import shutil
 import json
 import requests
 import csv
+from enum import Enum
 
-#region CLASSES
+#region ENUMS
 
 class bcolors:
     HEADER = '\033[95m'
@@ -16,6 +17,18 @@ class bcolors:
     ENDC = '\033[0m'
     BOLD = '\033[1m'
     UNDERLINE = '\033[4m'
+
+class difficulty(Enum):
+    easy = 'Easy'
+    intermediate = 'Intermediate'
+    hard = 'Hard'
+    veryhard = 'Very Hard'
+
+class gender(Enum):
+    male = 'Male'
+    female = 'Female'
+    multiple = 'Multiple'
+    nothuman = 'N/A'
 
 #endregion
 
@@ -34,19 +47,35 @@ def clearFolder(folder):
         except Exception as e:
             print('Failed to delete %s. Reason: %s' % (file_path, e))
 
+def getImagePath(url):
+    path = "images/"
+    for folder in url.split('/')[2:]:
+        path += "{}/".format(folder)
+    return path[:-1]
+
+def getSpeedMS(value):
+    return value / 100;
+
+def getSpeedPercentage(value):
+    return 100 * value / 400;
+
+def getTerrorRadius(value):
+    return value / 100;
+
 def successMessage(file):
     print(bcolors.OKGREEN + "{} created!".format(file) + bcolors.ENDC)
 
 #endregion
 
 def createMetadataCSV():
-    file = open("./source_data/metadata.csv", "w", newline="")
+    file = open("./source_data/metadata.csv", "w", newline="", encoding="utf-8")
     writer = csv.writer(file)
     writer.writerow(["endpoint", "version", "lastupdate"])
 
     res = requests.get("https://dbd.tricky.lol/api/versions")
     response = json.loads(res.text)
 
+    # Key, Value because url doesn't return array
     for key, value in response.items():
         writer.writerow([key, value["version"], value["lastupdate"]])
 
@@ -54,17 +83,34 @@ def createMetadataCSV():
     successMessage("metadata.csv")
 
 def createSurvivorCSV():
-    print("WIP")
+    file = open("./source_data/survivor.csv", "w", newline="", encoding="utf-8")
+    writer = csv.writer(file)
+    writer.writerow(["id", "dlcID", "name", "gender", "bio", "lore", "image"])
+
+    res = requests.get("https://dbd.tricky.lol/api/characters?role=survivor")
+    response = json.loads(res.text)
+
+    index = 0
+    for i in response:
+        writer.writerow([index, i["dlc"], i["name"], gender[i["gender"]].value, i["bio"], i["story"], getImagePath(i["image"])])
+        index += 1
+
+    file.close()
+    successMessage("survivor.csv")
 
 def createKillerCSV():
-    print("WIP")
+    file = open("./source_data/killer.csv", "w", newline="", encoding="utf-8")
+    writer = csv.writer(file)
+    writer.writerow(["id", "dlcID", "powerID", "name", "difficulty", "gender", "bio", "lore", "speedMS", "speedPercentage", "terrorRadius", "image"])
 
-def createSurvivorPerkCSV():
-    print("WIP")
+    res = requests.get("https://dbd.tricky.lol/api/characters?role=killer")
+    response = json.loads(res.text)
 
+    for key, value in response.items():
+        writer.writerow([key, value["dlc"], value["item"], value["name"], difficulty[value["difficulty"]].value, gender[value["gender"]].value, value["bio"], value["story"], getSpeedMS(value["tunables"]["maxwalkspeed"]), getSpeedPercentage(value["tunables"]["maxwalkspeed"]), getTerrorRadius(value["tunables"]["terrorradius"]), getImagePath(value["image"])])
 
-def createKillerPerkCSV():
-    print("WIP")
+    file.close()
+    successMessage("killer.csv")
 
 #endregion
 
@@ -72,10 +118,8 @@ def createKillerPerkCSV():
 
 clearFolder("./source_data/")
 createMetadataCSV()
-#createSurvivorCSV()
-#createKillerCSV()
-#createSurvivorPerkCSV()
-#createKillerPerkCSV()
+createSurvivorCSV()
+createKillerCSV()
 
 #endregion
 
@@ -88,3 +132,5 @@ createMetadataCSV()
 # vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 # Use https://dbd.tricky.lol/api for everything that you can
 # Default images: https://packs.dbdicontoolbox.com/Dead-By-Daylight-Default-Icons.zip
+
+# XAMPP -> MySQL Workbench
