@@ -1,3 +1,4 @@
+# Organize alphabetically later
 from imports import *
 from build.metadata import *
 from build.survivor import *
@@ -8,10 +9,12 @@ from build.offering import *
 from build.map import *
 from build.power import *
 from build.power_addon import *
+from build.event import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
 clearFolder("./source_data/")
+# Organize alphabetically later
 # metadata()
 # survivor()
 # killer()
@@ -20,7 +23,8 @@ clearFolder("./source_data/")
 # offering()
 # map()
 # power()
-power_addon()
+# power_addon()
+event()
 
 #endregion ################################################################################################
 

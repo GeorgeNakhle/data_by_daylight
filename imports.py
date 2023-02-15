@@ -46,6 +46,10 @@ class rarity(Enum):
     ultrarare = 'Ultra Rare'
     specialevent = 'Special Event'
 
+class eventType(Enum):
+    bloodpoints = 'Bloodpoints'
+    special = 'Special'
+
 #endregion
 
 #region FUNCTIONS
