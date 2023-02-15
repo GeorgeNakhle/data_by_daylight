@@ -50,6 +50,15 @@ class eventType(Enum):
     bloodpoints = 'Bloodpoints'
     special = 'Special'
 
+class itemType(Enum):
+    medkit = 'Med-Kit'
+    flashlight = 'Flashlight'
+    toolbox = 'Toolbox'
+    map = 'Map'
+    key = 'Key'
+    firecracker = 'Firecracker'
+    limited = 'Limited'
+
 #endregion
 
 #region FUNCTIONS

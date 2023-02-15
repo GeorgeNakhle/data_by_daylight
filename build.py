@@ -10,11 +10,11 @@ from build.map import *
 from build.power import *
 from build.power_addon import *
 from build.event import *
+from build.item import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
 clearFolder("./source_data/")
-# Organize alphabetically later
 # metadata()
 # survivor()
 # killer()
@@ -24,7 +24,8 @@ clearFolder("./source_data/")
 # map()
 # power()
 # power_addon()
-event()
+# event()
+item()
 
 #endregion ################################################################################################
 
