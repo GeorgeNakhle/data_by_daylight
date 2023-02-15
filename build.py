@@ -13,6 +13,7 @@ from build.event import *
 from build.item import *
 from build.item_addon import *
 from build.item_addon_type import *
+from build.tome import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -29,7 +30,8 @@ clearFolder("./source_data/")
 # event()
 # item()
 # item_addon()
-item_addon_type()
+# item_addon_type()
+tome()
 
 #endregion ################################################################################################
 
