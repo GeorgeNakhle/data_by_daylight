@@ -6,6 +6,7 @@ from build.perk import *
 from build.dlc import *
 from build.offering import *
 from build.map import *
+from build.power import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -17,6 +18,7 @@ clearFolder("./source_data/")
 # dlc()
 # offering()
 # map()
+power()
 
 #endregion ################################################################################################
 
