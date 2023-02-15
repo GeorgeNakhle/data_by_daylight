@@ -11,6 +11,7 @@ from build.power import *
 from build.power_addon import *
 from build.event import *
 from build.item import *
+from build.item_addon import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -25,7 +26,8 @@ clearFolder("./source_data/")
 # power()
 # power_addon()
 # event()
-item()
+# item()
+item_addon()
 
 #endregion ################################################################################################
 
