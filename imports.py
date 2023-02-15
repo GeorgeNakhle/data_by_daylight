@@ -37,6 +37,7 @@ class gender(Enum):
 class role(Enum):
     survivor = 'Survivor'
     killer = 'Killer'
+    shared = 'General'
 
 class rarity(Enum):
     common = 'Common'
