@@ -20,6 +20,7 @@ from build.entry import *
 from build.rift import *
 from build.level import *
 from build.charm import *
+from build.outfit import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -43,7 +44,8 @@ clearFolder("./source_data/")
 # entry()
 # rift()
 # level()
-charm()
+# charm()
+outfit()
 
 #endregion ################################################################################################
 
