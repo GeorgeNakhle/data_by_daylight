@@ -16,6 +16,7 @@ from build.item_addon_type import *
 from build.tome import *
 from build.challenge import *
 from build.vignette import *
+from build.entry import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -35,7 +36,8 @@ clearFolder("./source_data/")
 # item_addon_type()
 # tome()
 # challenge()
-vignette()
+# vignette()
+entry()
 
 #endregion ################################################################################################
 
