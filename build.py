@@ -18,6 +18,7 @@ from build.challenge import *
 from build.vignette import *
 from build.entry import *
 from build.rift import *
+from build.level import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -39,7 +40,8 @@ clearFolder("./source_data/")
 # challenge()
 # vignette()
 # entry()
-rift()
+# rift()
+level()
 
 #endregion ################################################################################################
 
@@ -74,6 +76,7 @@ rift()
 # Put a try/catch somewhere
 # Make table for status effects (icons in ./images)
 # Make table for codes
+# For cosmetic images: https://dbd.tricky.lol/cosmetics
 #
 # [1] JSON to CSV files
 # [2] Create schema
