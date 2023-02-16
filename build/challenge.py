@@ -12,7 +12,7 @@ def challenge():
     for key, value in response.items():
         tomeID = key
         for level in value["levels"]:
-            for challenge in value["levels"][str(level)]["nodes"]:
+            for challenge in value["levels"][level]["nodes"]:
                 # Note: Does not include prologue, epilogue, and reward nodes
                 if challenge["name"] == "Prologue" or challenge["name"] == "Epilogue" or challenge["name"] == "reward":
                     continue

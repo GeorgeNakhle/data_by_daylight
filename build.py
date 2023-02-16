@@ -15,6 +15,7 @@ from build.item_addon import *
 from build.item_addon_type import *
 from build.tome import *
 from build.challenge import *
+from build.vignette import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -33,7 +34,8 @@ clearFolder("./source_data/")
 # item_addon()
 # item_addon_type()
 # tome()
-challenge()
+# challenge()
+vignette()
 
 #endregion ################################################################################################
 
@@ -65,6 +67,9 @@ challenge()
 # Default images: https://packs.dbdicontoolbox.com/Dead-By-Daylight-Default-Icons.zip
 #
 # XAMPP -> MySQL Workbench
+# Put a try/catch somewhere
+# Make table for status effects (icons in ./images)
+# Make table for codes
 #
 # [1] JSON to CSV files
 # [2] Create schema
