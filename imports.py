@@ -62,6 +62,13 @@ class itemType(Enum):
     firecracker = 'Firecracker'
     limited = 'Limited'
 
+class cosmeticType(Enum):
+    head = "Head"
+    torso = 'Torso'
+    legs = 'Legs'
+    weapon = 'Weapon'
+    body = 'Body'
+
 #endregion
 
 #region FUNCTIONS
@@ -86,6 +93,11 @@ def getImagePath(url):
     for folder in url.split('/')[2:]:
         path += "{}/".format(folder)
     return path[:-1]
+
+def isSurvivor(id):
+    if id < 1000:
+        return True
+    return False
 
 def getSpeedMS(value):
     if value == None:

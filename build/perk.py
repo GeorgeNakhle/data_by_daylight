@@ -14,7 +14,7 @@ def perk():
             # General perk (any)
             survivorID = value["character"]
             killerID = value["character"]
-        elif value["character"] < 1000:
+        elif isSurvivor(value["character"]):
             # Survivor perk (not general)
             survivorID = value["character"]
             killerID = None

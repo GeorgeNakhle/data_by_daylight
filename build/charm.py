@@ -5,11 +5,15 @@ def charm():
     writer = csv.writer(file)
     writer.writerow(["id", "name", "description", "collection", "role", "rarity", "image"])
 
-    res = requests.get("https://dbd.tricky.lol/api/cosmetics?type=charm")
+    # API fetch on all cosmetics because of gift code charms
+    res = requests.get("https://dbd.tricky.lol/api/cosmetics")
     response = json.loads(res.text)
 
     # Key, Value because url doesn't return array
     for key, value in response.items():
+        if value["type"] != "charm" and value["category"] != "charm":
+            continue
+
         if value["role"] == None:
             roleType = role["shared"].value
         else:
