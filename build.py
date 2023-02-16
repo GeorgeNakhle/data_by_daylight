@@ -1,69 +1,68 @@
-# Organize alphabetically later
 from imports import *
-from build.metadata import *
-from build.survivor import *
-from build.killer import *
-from build.perk import *
-from build.dlc import *
-from build.offering import *
-from build.map import *
-from build.power import *
-from build.power_addon import *
-from build.event import *
-from build.item import *
-from build.item_addon import *
-from build.item_addon_type import *
-from build.tome import *
 from build.challenge import *
-from build.vignette import *
-from build.entry import *
-from build.rift import *
-from build.level import *
 from build.charm import *
-from build.outfit import *
 from build.cosmetic import *
+from build.dlc import *
+from build.entry import *
+from build.event import *
+from build.item_addon_type import *
+from build.item_addon import *
+from build.item import *
+from build.killer import *
+from build.level import *
+from build.map import *
+from build.metadata import *
+from build.offering import *
+from build.outfit import *
+from build.perk import *
+from build.power_addon import *
+from build.power import *
+from build.rift import *
+from build.survivor import *
+from build.tome import *
+from build.vignette import *
 
-#region [1] #### JSON to CSV files ########################################################################
+#region [1] JSON to CSV files #############################################################################
 
-clearFolder("./source_data/")
-# metadata()
-# survivor()
-# killer()
-# perk()
-# dlc()
-# offering()
-# map()
-# power()
-# power_addon()
-# event()
-# item()
-# item_addon()
-# item_addon_type()
-# tome()
+# clearFolder("./source_data/")
 # challenge()
-# vignette()
-# entry()
-# rift()
-# level()
 # charm()
-# outfit()
 # cosmetic()
+# dlc()
+# entry()
+# event()
+# item_addon_type()
+# item_addon()
+# item()
+# killer()
+# level()
+# map()
+# metadata()
+# offering()
+# outfit()
+# perk()
+# power_addon()
+# power()
+# rift()
+# survivor()
+# tome()
+# vignette()
 
 #endregion ################################################################################################
 
-#region [2] #### Create schema ############################################################################
+#region [2] Create schema #################################################################################
 
 # something lol
 
 #endregion ################################################################################################
 
-#region [3] #### Import CSV files into schema #############################################################
+#region [3] Import CSV files into schema ##################################################################
 
 # something lol
 
 #endregion ################################################################################################
 
-#region [4] #### Create dbd.db ############################################################################
+#region [4] Create dbd.db #################################################################################
 
 # something lol
 
@@ -84,9 +83,9 @@ clearFolder("./source_data/")
 # Make table for codes
 # For cosmetic images: https://dbd.tricky.lol/cosmetics
 #
-# [1] JSON to CSV files
-# [2] Create schema
-# [3] Import CSV files into schema
-# [4] Create dbd.db
+# [1] JSON to CSV files             [✓]
+# [2] Create schema                 [ ]
+# [3] Import CSV files into schema  [ ]
+# [4] Create dbd.db                 [ ]
 #
 ###########################################################################################################
