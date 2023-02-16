@@ -19,6 +19,7 @@ from build.vignette import *
 from build.entry import *
 from build.rift import *
 from build.level import *
+from build.charm import *
 
 #region [1] #### JSON to CSV files ########################################################################
 
@@ -41,7 +42,8 @@ clearFolder("./source_data/")
 # vignette()
 # entry()
 # rift()
-level()
+# level()
+charm()
 
 #endregion ################################################################################################
 

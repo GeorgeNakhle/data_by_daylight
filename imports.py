@@ -46,6 +46,7 @@ class rarity(Enum):
     veryrare = 'Very Rare'
     ultrarare = 'Ultra Rare'
     specialevent = 'Special Event'
+    artifact = 'Artifact'
 
 class eventType(Enum):
     bloodpoints = 'Bloodpoints'
