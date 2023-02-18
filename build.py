@@ -21,6 +21,7 @@ from build.rift import *
 from build.survivor import *
 from build.tome import *
 from build.vignette import *
+from sql.sqlite import *
 
 #region [1] JSON to CSV files #############################################################################
 
@@ -50,19 +51,13 @@ from build.vignette import *
 
 #endregion ################################################################################################
 
-#region [2] Create schema #################################################################################
+#region [2] Create schema and import CSV files ############################################################
 
-# something lol
-
-#endregion ################################################################################################
-
-#region [3] Import CSV files into schema ##################################################################
-
-# something lol
+database()
 
 #endregion ################################################################################################
 
-#region [4] Create dbd.db #################################################################################
+#region [3] Create dbd.db #################################################################################
 
 # something lol
 
@@ -83,9 +78,13 @@ from build.vignette import *
 # Make table for codes
 # For cosmetic images: https://dbd.tricky.lol/cosmetics
 #
-# [1] JSON to CSV files             [✓]
-# [2] Create schema                 [ ]
-# [3] Import CSV files into schema  [ ]
-# [4] Create dbd.db                 [ ]
+# Competitors:  Nightlight.gg (crowd sourced)
+#               Randomizer DBD
+#               Perks by Daylight
+#               Tricky
+#
+# [1] JSON to CSV files                     [✓]
+# [2] Create schema and import CSV files    [ ]
+# [4] Create dbd.db                         [ ]
 #
 ###########################################################################################################
