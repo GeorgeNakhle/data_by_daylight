@@ -12,7 +12,8 @@ def database():
                 level integer,
                 role text,
                 objective text,
-                reward blob
+                reward blob,
+                PRIMARY KEY (tomeID, name, level)
                 )""")
     with open("./source_data/challenge.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
