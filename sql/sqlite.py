@@ -3,7 +3,23 @@ from imports import *
 def database():
     os.remove("dbd.db")
     conn = sqlite3.connect("dbd.db", detect_types=sqlite3.PARSE_DECLTYPES)
+    conn.execute("PRAGMA foreign_keys = 1")
     c = conn.cursor()
+
+    
+    #region TOME TABLE
+    c.execute("""CREATE TABLE tome (
+                id text PRIMARY KEY,
+                title text,
+                type text,
+                release timestamp
+                )""")
+    with open("./source_data/tome.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["id"], i["title"], i["type"], i["release"]) for i in dr]
+    c.executemany("INSERT INTO tome (id, title, type, release) VALUES (?, ?, ?, ?);", to_db)
+    conn.commit()
+    #endregion
 
     #region CHALLENGE TABLE
     c.execute("""CREATE TABLE challenge (
@@ -13,12 +29,74 @@ def database():
                 role text,
                 objective text,
                 reward blob,
-                PRIMARY KEY (tomeID, name, level)
+                PRIMARY KEY (tomeID, name, level),
+                FOREIGN KEY (tomeID) REFERENCES tome (id)
                 )""")
     with open("./source_data/challenge.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
         to_db = [(i["tomeID"], i["name"], i["level"], i["role"], i["objective"], i["reward"]) for i in dr]
     c.executemany("INSERT INTO challenge (tomeID, name, level, role, objective, reward) VALUES (?, ?, ?, ?, ?, ?);", to_db)
+    conn.commit()
+    #endregion
+
+    #region VIGNETTE TABLE
+    c.execute("""CREATE TABLE vignette (
+                id text PRIMARY KEY,
+                tomeID text,
+                title text,
+                subtitle text,
+                FOREIGN KEY (tomeID) REFERENCES tome (id)
+                )""")
+    with open("./source_data/vignette.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["id"], i["tomeID"], i["title"], i["subtitle"]) for i in dr]
+    c.executemany("INSERT INTO vignette (id, tomeID, title, subtitle) VALUES (?, ?, ?, ?);", to_db)
+    conn.commit()
+    #endregion
+
+    #region ENTRY TABLE
+    c.execute("""CREATE TABLE entry (
+                title text,
+                vignetteID text,
+                text text,
+                PRIMARY KEY (title, vignetteID)
+                FOREIGN KEY (vignetteID) REFERENCES vignette (id)
+                )""")
+    with open("./source_data/entry.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["title"], i["vignetteID"], i["text"]) for i in dr]
+    c.executemany("INSERT INTO entry (title, vignetteID, text) VALUES (?, ?, ?);", to_db)
+    conn.commit()
+    #endregion
+
+    #region RIFT TABLE
+    c.execute("""CREATE TABLE rift (
+                id text PRIMARY KEY,
+                tier integer,
+                start timestamp,
+                end timestamp,
+                FOREIGN KEY (id) REFERENCES tome (id)
+                )""")
+    with open("./source_data/rift.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["id"], i["tier"], i["start"], i["end"]) for i in dr]
+    c.executemany("INSERT INTO rift (id, tier, start, end) VALUES (?, ?, ?, ?);", to_db)
+    conn.commit()
+    #endregion
+
+    #region LEVEL TABLE
+    c.execute("""CREATE TABLE level (
+                riftID text,
+                number integer,
+                type text,
+                reward blob,
+                PRIMARY KEY (riftID, number, type),
+                FOREIGN KEY (riftID) REFERENCES rift (id)
+                )""")
+    with open("./source_data/level.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["riftID"], i["number"], i["type"], i["reward"]) for i in dr]
+    c.executemany("INSERT INTO level (riftID, number, type, reward) VALUES (?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
 
@@ -73,19 +151,6 @@ def database():
         dr = csv.DictReader(fin)
         to_db = [(i["id"], i["name"], i["description"], i["steamID"], i["release"]) for i in dr]
     c.executemany("INSERT INTO dlc (id, name, description, steamID, release) VALUES (?, ?, ?, ?, ?);", to_db)
-    conn.commit()
-    #endregion
-
-    #region ENTRY TABLE
-    c.execute("""CREATE TABLE entry (
-                title integer,
-                vignetteID text,
-                text text
-                )""")
-    with open("./source_data/entry.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["title"], i["vignetteID"], i["text"]) for i in dr]
-    c.executemany("INSERT INTO entry (title, vignetteID, text) VALUES (?, ?, ?);", to_db)
     conn.commit()
     #endregion
 
@@ -169,20 +234,6 @@ def database():
         dr = csv.DictReader(fin)
         to_db = [(i["id"], i["dlcID"], i["powerID"], i["name"], i["difficulty"], i["gender"], i["bio"], i["lore"], i["speedMS"], i["speedPercentage"], i["terrorRadius"], i["image"]) for i in dr]
     c.executemany("INSERT INTO killer (id, dlcID, powerID, name, difficulty, gender, bio, lore, speedMS, speedPercentage, terrorRadius, image) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", to_db)
-    conn.commit()
-    #endregion
-
-    #region LEVEL TABLE
-    c.execute("""CREATE TABLE level (
-                riftID text,
-                number integer,
-                type text,
-                reward blob
-                )""")
-    with open("./source_data/level.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["riftID"], i["number"], i["type"], i["reward"]) for i in dr]
-    c.executemany("INSERT INTO level (riftID, number, type, reward) VALUES (?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
 
@@ -303,20 +354,6 @@ def database():
     conn.commit()
     #endregion
 
-    #region RIFT TABLE
-    c.execute("""CREATE TABLE rift (
-                id text,
-                tier integer,
-                start timestamp,
-                end timestamp
-                )""")
-    with open("./source_data/rift.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["tier"], i["start"], i["end"]) for i in dr]
-    c.executemany("INSERT INTO rift (id, tier, start, end) VALUES (?, ?, ?, ?);", to_db)
-    conn.commit()
-    #endregion
-
     #region SURVIVOR TABLE
     c.execute("""CREATE TABLE survivor (
                 id integer,
@@ -331,34 +368,6 @@ def database():
         dr = csv.DictReader(fin)
         to_db = [(i["id"], i["dlcID"], i["name"], i["gender"], i["bio"], i["lore"], i["image"]) for i in dr]
     c.executemany("INSERT INTO survivor (id, dlcID, name, gender, bio, lore, image) VALUES (?, ?, ?, ?, ?, ?, ?);", to_db)
-    conn.commit()
-    #endregion
-
-    #region TOME TABLE
-    c.execute("""CREATE TABLE tome (
-                id text,
-                title text,
-                type text,
-                release timestamp
-                )""")
-    with open("./source_data/tome.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["title"], i["type"], i["release"]) for i in dr]
-    c.executemany("INSERT INTO tome (id, title, type, release) VALUES (?, ?, ?, ?);", to_db)
-    conn.commit()
-    #endregion
-
-    #region VIGNETTE TABLE
-    c.execute("""CREATE TABLE vignette (
-                id text,
-                tomeID text,
-                title text,
-                subtitle text
-                )""")
-    with open("./source_data/vignette.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["tomeID"], i["title"], i["subtitle"]) for i in dr]
-    c.executemany("INSERT INTO vignette (id, tomeID, title, subtitle) VALUES (?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
     
