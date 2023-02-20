@@ -14,7 +14,7 @@ def challenge():
         tomeID = key
         for level in value["levels"]:
             for challenge in value["levels"][level]["nodes"]:
-                # Doesb't include prologue, epilogue, and reward nodes
+                # Doesn't include prologue, epilogue, and reward nodes
                 # Doesn't include duplicate challenges (i.e. Bountiful Harvest (x3) from Tome 5, Level 1)
                 if (challenge["name"] == "Prologue" or challenge["name"] == "Epilogue" or challenge["name"] == "reward") or (tomeID in previousChallenge and challenge["name"] in previousChallenge and level in previousChallenge):
                     continue

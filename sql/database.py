@@ -1,9 +1,10 @@
 from imports import *
 
 def database():
-    os.remove("dbd.db")
+    if os.path.isfile("dbd.db"):
+        os.remove("dbd.db")
     conn = sqlite3.connect("dbd.db", detect_types=sqlite3.PARSE_DECLTYPES)
-    conn.execute("PRAGMA foreign_keys = 1")
+    conn.execute("PRAGMA foreign_keys = ON")
     c = conn.cursor()
 
     
@@ -100,6 +101,71 @@ def database():
     conn.commit()
     #endregion
 
+    #region EVENT TABLE
+    c.execute("""CREATE TABLE event (
+                id text PRIMARY KEY,
+                name text,
+                type text,
+                multiplier real,
+                start timestamp,
+                end timestamp
+                )""")
+    with open("./source_data/event.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["id"], i["name"], i["type"], i["multiplier"], i["start"], i["end"]) for i in dr]
+    c.executemany("INSERT INTO event (id, name, type, multiplier, start, end) VALUES (?, ?, ?, ?, ?, ?);", to_db)
+    conn.commit()
+    #endregion
+
+    #region ITEM TABLE
+    c.execute("""CREATE TABLE item (
+                id text PRIMARY KEY,
+                eventID text,
+                name text,
+                description text,
+                type text,
+                rarity text,
+                image text,
+                FOREIGN KEY (eventID) REFERENCES event (id)
+                )""")
+    with open("./source_data/item.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["id"], i["eventID"] or None, i["name"], i["description"], i["type"], i["rarity"], i["image"]) for i in dr]
+    c.executemany("INSERT INTO item (id, eventID, name, description, type, rarity, image) VALUES (?, ?, ?, ?, ?, ?, ?);", to_db)
+    conn.commit()
+    #endregion
+
+    #region ITEM_ADDON TABLE
+    c.execute("""CREATE TABLE item_addon (
+                id text PRIMARY KEY,
+                name text,
+                description text,
+                type text,
+                rarity text,
+                image text
+                )""")
+    with open("./source_data/item_addon.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["id"], i["name"], i["description"], i["type"], i["rarity"], i["image"]) for i in dr]
+    c.executemany("INSERT INTO item_addon (id, name, description, type, rarity, image) VALUES (?, ?, ?, ?, ?, ?);", to_db)
+    conn.commit()
+    #endregion
+
+    #region ITEM_ADDON_ITEM TABLE
+    c.execute("""CREATE TABLE item_addon_item (
+                addonID text,
+                itemID text,
+                PRIMARY KEY (addonID, itemID),
+                FOREIGN KEY (addonID) REFERENCES item_addon (id),
+                FOREIGN KEY (itemID) REFERENCES item (id)
+                )""")
+    with open("./source_data/item_addon_item.csv", "r", encoding="utf-8") as fin:
+        dr = csv.DictReader(fin)
+        to_db = [(i["addonID"], i["itemID"]) for i in dr]
+    c.executemany("INSERT INTO item_addon_item (addonID, itemID) VALUES (?, ?);", to_db)
+    conn.commit()
+    #endregion
+
     #region CHARM TABLE
     c.execute("""CREATE TABLE charm (
                 id text,
@@ -151,67 +217,6 @@ def database():
         dr = csv.DictReader(fin)
         to_db = [(i["id"], i["name"], i["description"], i["steamID"], i["release"]) for i in dr]
     c.executemany("INSERT INTO dlc (id, name, description, steamID, release) VALUES (?, ?, ?, ?, ?);", to_db)
-    conn.commit()
-    #endregion
-
-    #region EVENT TABLE
-    c.execute("""CREATE TABLE event (
-                id text,
-                name text,
-                type text,
-                multiplier integer,
-                start timestamp,
-                end timestamp
-                )""")
-    with open("./source_data/event.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["name"], i["type"], i["multiplier"], i["start"], i["end"]) for i in dr]
-    c.executemany("INSERT INTO event (id, name, type, multiplier, start, end) VALUES (?, ?, ?, ?, ?, ?);", to_db)
-    conn.commit()
-    #endregion
-
-    #region ITEM_ADDON_TYPE TABLE
-    c.execute("""CREATE TABLE item_addon_type (
-                addonID text,
-                typeID text
-                )""")
-    with open("./source_data/item_addon_type.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["addonID"], i["typeID"]) for i in dr]
-    c.executemany("INSERT INTO item_addon_type (addonID, typeID) VALUES (?, ?);", to_db)
-    conn.commit()
-    #endregion
-
-    #region ITEM_ADDON TABLE
-    c.execute("""CREATE TABLE item_addon (
-                id text,
-                name text,
-                description text,
-                type text,
-                rarity text,
-                image text
-                )""")
-    with open("./source_data/item_addon.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["name"], i["description"], i["type"], i["rarity"], i["image"]) for i in dr]
-    c.executemany("INSERT INTO item_addon (id, name, description, type, rarity, image) VALUES (?, ?, ?, ?, ?, ?);", to_db)
-    conn.commit()
-    #endregion
-
-    #region ITEM TABLE
-    c.execute("""CREATE TABLE item (
-                id text,
-                type text,
-                eventID text,
-                name text,
-                description text,
-                rarity text,
-                image text
-                )""")
-    with open("./source_data/item.csv", "r", encoding="utf-8") as fin:
-        dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["type"], i["eventID"], i["name"], i["description"], i["rarity"], i["image"]) for i in dr]
-    c.executemany("INSERT INTO item (id, type, eventID, name, description, rarity, image) VALUES (?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
 

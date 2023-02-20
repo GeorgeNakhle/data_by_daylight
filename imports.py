@@ -5,6 +5,7 @@ import shutil
 import json
 import requests
 import csv
+import pandas
 from enum import Enum
 import sqlite3
 

@@ -5,7 +5,7 @@ from build.cosmetic import *
 from build.dlc import *
 from build.entry import *
 from build.event import *
-from build.item_addon_type import *
+from build.item_addon_item import *
 from build.item_addon import *
 from build.item import *
 from build.killer import *
@@ -21,7 +21,7 @@ from build.rift import *
 from build.survivor import *
 from build.tome import *
 from build.vignette import *
-from sql.sqlite import *
+from sql.database import *
 
 #region [1] JSON to CSV files #############################################################################
 
@@ -32,7 +32,7 @@ from sql.sqlite import *
 # dlc()
 # entry()
 # event()
-# item_addon_type()
+# item_addon_item()
 # item_addon()
 # item()
 # killer()
