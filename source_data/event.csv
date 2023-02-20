@@ -1,0 +1,44 @@
+id,name,type,multiplier,start,end
+BPEVENT_Bloodfeast_1441929600,Bloodfeast!,Bloodpoints,1,1441929600,1442016000
+BPEVENT_Bloodhunt_1444521600,Bloodhunt!,Bloodpoints,2,1444521600,1444694400
+Halloween2017,Halloween Event,Special,0,1508436000,1509645600
+Winter2017,Winter Event,Special,0,1513188000,1515002400
+Lunar,Howling Grounds,Special,0,1518721200,1520276400
+Summer,Scorching Summer Bbq,Special,0,1533654000,1534863600
+BPEVENT_Bloodhunt_1537488000,Bloodhunt!,Bloodpoints,2,1537488000,1538006400
+Halloween2018,The Hallowed Blight,Special,0,1539972000,1541181600
+BPEVENT_Bloodrush_1541444400,Bloodrush!,Bloodpoints,1.5,1541444400,1542049200
+Winter2018,Winter Event,Special,0,1545073200,1546542000
+BPEVENT_WinterBloodhunt_1545937200,Winter Festival Bloodhunt,Bloodpoints,2,1545937200,1546542000
+Lunar2019,Moonrise,Special,0,1548874800,1550084400
+BPEVENT_Bloodhunt_1556820000,Bloodhunt!,Bloodpoints,2,1556820000,1557165600
+BPEVENT_Bloodhunt_1560535200,Bloodhunt!,Bloodpoints,2,1560535200,1561053600
+Anniversary2019,Third Year Anniversary,Special,0,1560880800,1562090400
+BPEVENT_Bloodhunt_1569510000,Bloodhunt!,Bloodpoints,2,1569510000,1569855600
+Halloween2019,Withering Blight,Special,0,1572307200,1573660800
+BPEVENT_Bloodhunt_1572534000,Bloodhunt!,Bloodpoints,2,1572534000,1572879600
+BPEVENT_Bloodhunt_1577980800,Bloodhunt!,Bloodpoints,2,1577980800,1578326400
+Lunar2020,Scarlet Swarm,Special,0,1579622400,1580832000
+BPEVENT_Bloodrush_1585148400,Bloodrush!,Bloodpoints,1.5,1585148400,1586962800
+Anniversary2020,Fourth Year Anniversary,Special,0,1592924400,1594738800
+Halloween2020,The Eternal Blight,Special,0,1603292400,1604505600
+BPEVENT_Bloodhunt_1603983600,Bloodhunt!,Bloodpoints,2,1603983600,1604334599
+BPEVENT_Bloodrush_1610726400,Bloodrush!,Bloodpoints,1.5,1610726400,1611331200
+Lunar2021,Gilded Stampede,Special,0,1613059200,1614268800
+Anniversary2021,Fifth Year Anniversary,Special,0,1625065200,1626966000
+BPEVENT_Bloodhunt_1627570800,Bloodhunt!,Bloodpoints,2,1627570800,1628002800
+Halloween2021,The Midnight Grove,Special,0,1634828400,1635955200
+BPEVENT_Bloodhunt_1637856000,Bloodhunt!,Bloodpoints,2,1637856000,1638201600
+Winter2021,Bone Chill,Special,0,1639065600,1640275200
+BPEVENT_Bloodrush_1642176000,Bloodrush!,Bloodpoints,1.5,1642176000,1642780800
+Lunar2022,Lurking Stripes,Special,0,1643137200,1644346800
+BPEVENT_Bloodrush_1646064000,Bloodrush!,Bloodpoints,1.5,1646064000,1646668800
+BPEVENT_Bloodhunt_1653404400,Bloodhunt!,Bloodpoints,2,1653404400,1654009200
+Anniversary2022,Twisted Masquerade,Special,0,1655393400,1656603000
+BPEVENT_Bloodhunt_1655996400,Bloodhunt!,Bloodpoints,2,1655996400,1656342000
+Halloween2022,Haunted By Daylight,Special,0,1665673200,1667487600
+BPEVENT_Bloodrush_1669132800,Bloodrush!,Bloodpoints,1.5,1669132800,1669737600
+Winter2022,Bone Chill,Special,0,1670515200,1672848000
+BPEVENT_Bloodrush_1671724800,Bloodrush!,Bloodpoints,1.5,1671724800,1672675200
+Lunar2023Mini,Moonlight Burrow,Special,0,1673971200,1674583199
+Lunar2023,Moonlight Burrow,Special,0,1674583200,1675792800

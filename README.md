@@ -1,7 +1,7 @@
 # Data by Daylight
-A project used to generate a database from Dead by Daylight data. This database file is used to power the Database by Daylight Android app, but can be used for other purposes as well.
+A project used to generate a database from Dead by Daylight data. This database file is used to power the [Database by Daylight](https://github.com/GeorgeNakhle/database_by_daylight) Android app, but can be used for other purposes too.
 
-Check the releases section for compiled SQLite db files. There is no documentation for the db file, instead use a graphical tool like [SQliteBrowser](http://sqlitebrowser.org/) or figure it out from the [mapping file](). The data I built from is in the [source_data](https://github.com/gatheringhallstudios/MHWorldData/tree/master/source_data) folder.
+Check out the [releases](https://github.com/GeorgeNakhle/data_by_daylight/releases) section for compiled SQLite db files. There is no documentation for the db file, instead use a graphical tool like [DB Browser for SQLite](http://sqlitebrowser.org/) to see the contents. All the data I built from is in the [source_data](https://github.com/gatheringhallstudios/GeorgeNakhle/tree/main/source_data) folder.
 
 ## Purpose & Goals
 This project exists as a free and open collection of Dead by Daylight data for people to build cool things with. I use this data in the (also open source) [Dead by Database](https://github.com/GeorgeNakhle/database_by_daylight) Android app.

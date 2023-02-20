@@ -1,0 +1,737 @@
+id,name,description,collection,role,rarity,image
+AU_001,New Year ‘21,"No matter the design, we couldn’t make this as horrifying as 2020.",Winter 2020,General,Uncommon,images/Customization/Charms/AU_001.png
+AU_002,Killer's Stocking,An assortment of blood-stained weaponry for all the vicious boys and girls.,Winter 2020,Killer,Uncommon,images/Customization/Charms/AU_002.png
+AU_003,Fruitcake,An item of unfathomable evil.,Winter 2020,Killer,Rare,images/Customization/Charms/AU_003.png
+AU_004,Survivor’s Stocking,It’s packed with all kinds of useful items and the Broken Key.,Winter 2020,Survivor,Uncommon,images/Customization/Charms/AU_004.png
+AU_005,Winter Reindeer,"The fact that this ornament hasn’t been slashed, bludgeoned, or vomited on is a holiday miracle.",Winter 2020,Survivor,Rare,images/Customization/Charms/AU_005.png
+BI_001,Tower of the&nbsp;Damned,The foundation of a mysterious tower.,Divergence,General,Uncommon,images/Customization/Charms/BI_001.png
+BI_002,Tower of the&nbsp;Rising,A half-built tower that holds secrets&nbsp;in its cold walls.,Divergence,General,Rare,images/Customization/Charms/BI_002.png
+BI_003,Tower of the&nbsp;Strong,An enigmatic tower that stands out&nbsp;from the barren landscape.,Divergence,General,Very Rare,images/Customization/Charms/BI_003.png
+BI_004,Tower of the&nbsp;Observer,A tower bursting with unharnessed possibility.,Divergence,General,Ultra Rare,images/Customization/Charms/BI_004.png
+BI_005,Sakura 7,A mock-up of a logo that a Sakura 7 gang member carved into a table.,Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/BI_005.png
+BI_006,Green&nbsp;Geek,A keychain from the forum Claudette moderated.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/BI_006.png
+BI_007,Mr. Puddles&nbsp;Stuffie,It’s your wacky elephant pal as a plush&nbsp;toy!&nbsp;He can’t wait to&nbsp;play in&nbsp;your red puddles!&nbsp;<br><br>Design inspired by <b>kangyaku</b>.,Forgotten Toys,Survivor,Rare,images/Customization/Charms/BI_007.png
+BI_008,Yui&nbsp;Kimura Figurine,Yui’s&nbsp;favorite speed? Faster.,Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/BI_008.png
+BI_009,Ghost Orchid,A rare flower that grows in Cuba and Florida. Claudette’s favorite.,Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/BI_009.png
+BI_010,Oni Statuette,The figure of a Japanese ogre. It’s&nbsp;smiling viciously.,Forgotten Toys,Killer,Rare,images/Customization/Charms/BI_010.png
+BI_011,Death Do Us Part,Everything Sally held dear was taken away.,Horrible Dolls,Killer,Very Rare,images/Customization/Charms/BI_011.png
+BI_012,Shock Splinter,"An artifact once prevalent in The Entity’s realm, it&nbsp;vanished&nbsp;quite suddenly.",Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/BI_012.png
+BI_013,Maple Taffy,"A treat made by pouring hot maple sap onto snow. Part&nbsp;of&nbsp;French-Canadian&nbsp;culture, where it’s known as tire&nbsp;d'érable.",Winter’s Bounty,Survivor,Common,images/Customization/Charms/BI_013.png
+BI_014,Bone Chill,The hand of someone who succumbed to the cold night.,Winter’s Bounty,Killer,Common,images/Customization/Charms/BI_014.png
+BI_015,Frozen&nbsp;Delicious,An oxymoron known as frozen hot cocoa.,Winter’s Bounty,General,Common,images/Customization/Charms/BI_015.png
+BI_016,New Moon Bouquet,A relic from the Observer’s tower. Some say these roses once held powerful sway over The Entity’s realm.,The Desolate Prisoner,General,Rare,images/Customization/Charms/BI_016.png
+BI_017,Checkered Flag,"A flag marking the end of a race, its significance is diminished in a realm where&nbsp;endings are ambiguous.",Survivor Memorabilia,Survivor,Common,images/Customization/Charms/BI_017.png
+BI_018,Knifecicle,A knife-shaped icicle. May be effective at killing snowmen.,Winter’s Bounty,Killer,Uncommon,images/Customization/Charms/BI_018.png
+BI_019,Lion Tattoo,"A tattoo Kazan stripped from a man’s skin, deeming him unworthy of wearing such a noble symbol.",Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/BI_019.png
+BI_020,Scorched Straitjacket,A relic from the halls of&nbsp;Crotus&nbsp;Prenn&nbsp;Asylum.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/BI_020.png
+BI_021,Shattered Globe,"It may have been beautiful once, but such things&nbsp;are the first to break in this realm.",Winter’s Bounty,General,Ultra Rare,images/Customization/Charms/BI_021.png
+BI_022,Propulsion Overdrive&nbsp;RK7,A souped-up&nbsp;streetbike&nbsp;that&nbsp;Yui&nbsp;rode to many victories on.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/BI_022.png
+BI_023,Lady&nbsp;of&nbsp;Yesterday,Sally’s wedding ring. Only a piece of that woman remained.,Fated Paths,Killer,Common,images/Customization/Charms/BI_023.png
+BI_024,Lady&nbsp;of Doubt,She doubted the work she performed but had little else&nbsp;remaining.,Fated Paths,Killer,Common,images/Customization/Charms/BI_024.png
+BI_025,Lady&nbsp;of&nbsp;Despair,The death of her husband tore her soul apart.,Fated Paths,Killer,Common,images/Customization/Charms/BI_025.png
+BI_026,Lady&nbsp;of&nbsp;Melancholy,She was drifting towards a monstrous act as she succumbed to the darkness.,Fated Paths,Killer,Common,images/Customization/Charms/BI_026.png
+BI_027,Lady&nbsp;of&nbsp;Malice,She understood her purpose now. And it was to cleanse.,Fated Paths,Killer,Uncommon,images/Customization/Charms/BI_027.png
+BI_028,Broken Racer,"The dream felt real. And in it, she was&nbsp;utterly destroyed.",Fated Paths,Survivor,Common,images/Customization/Charms/BI_028.png
+BI_029,Devastated Racer,She felt empty after witnessing the horrible crash of her friend.,Fated Paths,Survivor,Common,images/Customization/Charms/BI_029.png
+BI_030,Furious Racer,There was a thought she couldn’t purge from her mind: Revenge.,Fated Paths,Survivor,Common,images/Customization/Charms/BI_030.png
+BI_031,Conflicted Racer,What does it matter if you gain the world if you lose your humanity?,Fated Paths,Survivor,Common,images/Customization/Charms/BI_031.png
+BI_032,Noble&nbsp;Racer,She&nbsp;realized&nbsp;some things&nbsp;are more important than first place.,Fated Paths,Survivor,Uncommon,images/Customization/Charms/BI_032.png
+BI_033,Lunar Ox,A strong and reliable beast with an indomitable will.,Gilded Stampede,General,Special Event,images/Customization/Charms/BI_033.png
+BI_034,The Campfire,A beacon of hope in a realm of suffering and despair.,Mementos of Prominence,General,Rare,images/Customization/Charms/BI_034.png
+DR_001,The Observer's Burrow,"An old, disheveled room that reeks of despair.",Forsaken,General,Uncommon,images/Customization/Charms/DR_001.png
+DR_002,The Observer's Hovel,"A squalid home, but far better than the rest of The Entity's Realm.",Forsaken,General,Rare,images/Customization/Charms/DR_002.png
+DR_003,The Observer's Shelter,A reprieve from the nearby horrors.,Forsaken,General,Very Rare,images/Customization/Charms/DR_003.png
+DR_004,The Observer's Sanctum,"Warm and peaceful, the only danger being the tedium of isolation.",Forsaken,General,Ultra Rare,images/Customization/Charms/DR_004.png
+DR_005,Safe Room Exit,Maybe it's best to lay low and wait for all of this to blow over.,Green Flu,Survivor,Uncommon,images/Customization/Charms/DR_005.png
+DR_006,News Chopper 5,Proof that zombies can't pilot helicopters.,Green Flu,Survivor,Rare,images/Customization/Charms/DR_006.png
+DR_007,The Locker,The favorite location of your teammate.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/DR_007.png
+DR_008,Bill Overbeck Figurine,"Being brave doesn't mean you're not scared. It means you're scared as hell, and then you pick up the shotgun anyway.",Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/DR_008.png
+DR_009,Recruiting Poster,A design that Bill remembers from back before his hair greyed.,Green Flu,Survivor,Uncommon,images/Customization/Charms/DR_009.png
+DR_010,Sea Goat Effigy,"An ancient artifact from a religion that worshipped Assyrian, Sumerian, and Babylonian gods.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/DR_010.png
+DR_011,Gilded Sea Goat,"A golden figure of the sea goat, said to be the God of Water and Creation.",Killer Memorabilia,Killer,Very Rare,images/Customization/Charms/DR_011.png
+DR_012,Left 4 Dead,Somehow it feels more important than just any mangled zombie hand.,Green Flu,General,Uncommon,images/Customization/Charms/DR_012.png
+DR_013,Bravoshot H31-X,A digital camera that's never far from Zarina.,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/DR_013.png
+DR_014,Coin of the Sea Goat,An ancient coin purchased by the wealthy to prove their devotion.,Killer Memorabilia,Killer,Common,images/Customization/Charms/DR_014.png
+DR_015,Exit Gate,"Don't let it fool you, leaving is never that easy.",Mementos of Prominence,General,Common,images/Customization/Charms/DR_015.png
+DR_016,Gnome Chompski,What's this guy doing in The Entity's realm?,Green Flu,General,Rare,images/Customization/Charms/DR_016.png
+DR_017,Karina's Coffee,"The Z in her name seemed beyond the comprehension of many, and Zarina found that she was often Karina.",Survivor Memorabilia,Survivor,Common,images/Customization/Charms/DR_017.png
+DR_018,Hush Dagger,A ceremonial dagger used to slice the tongue from a blasphemer.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/DR_018.png
+DR_019,Tablet of the Priestess,An ancient tablet that depicts the High Priestess of Babylon purifying the masses.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/DR_019.png
+DR_020,The Boomer,A zombie nearly bursting with bile. Reminiscent of the time Mom undercooked the thanksgiving turkey.,Horrible Dolls,Killer,Rare,images/Customization/Charms/DR_020.png
+DR_021,Blood Moon,"An ominous sign, dripping in blood...",Mementos of Prominence,General,Ultra Rare,images/Customization/Charms/DR_021.png
+DR_022,Golden Doc Award,The first trophy Zarina won for her documentary work.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/DR_022.png
+DR_023,Pained Devotee,"She took the words as truth and, as much as it pained her, accepted the necessity of spilt blood.",A Return to Form,Killer,Common,images/Customization/Charms/DR_023.png
+DR_024,Troubled Devotee,She did not understand how her mentor could question the gods.,A Return to Form,Killer,Common,images/Customization/Charms/DR_024.png
+DR_025,Sinful Devotee,She lied to the Maiden Guard to protect the man who raised her.,A Return to Form,Killer,Common,images/Customization/Charms/DR_025.png
+DR_026,Renewed Devotee,"She begged the gods for an answer, and it arrived as a whisper, angry and thirsting for blood.",A Return to Form,Killer,Common,images/Customization/Charms/DR_026.png
+DR_027,Uncompromising Devotee,"She allowed the whisper to influence her, no matter how difficult it pained her.",A Return to Form,Killer,Uncommon,images/Customization/Charms/DR_027.png
+DR_028,Besieged Soldier,"The world was snafued, and he was in the middle of it.",A Return to Form,Survivor,Common,images/Customization/Charms/DR_028.png
+DR_029,United Soldier,"He found other survivors, even though one of them was a loudmouthed blowhard.",A Return to Form,Survivor,Common,images/Customization/Charms/DR_029.png
+DR_030,Valiant Soldier,"He fought alongside the others, freeing a young man from a perilous situation.",A Return to Form,Survivor,Common,images/Customization/Charms/DR_030.png
+DR_031,Experienced Soldier,He was a value to his squad and he knew how to keep them in line.,A Return to Form,Survivor,Common,images/Customization/Charms/DR_031.png
+DR_032,Strong-Willed Soldier,"He was ready, able to act on instinct. A part of himself even missed this feeling.",A Return to Form,Survivor,Uncommon,images/Customization/Charms/DR_032.png
+DR_033,Rainbow Flag,Wear it with pride!,Pride 2021,General,Uncommon,images/Customization/Charms/DR_033.png
+DR_034,Skeletal Crow,"An unlucky crow, stripped to its bones in the Observer's tower.",The Desolate Prisoner,General,Rare,images/Customization/Charms/DR_034.png
+EC_001,Umbrella Corporation,The rusted logo of the biomedical multinational Umbrella Corporation.,Resident Evil,General,Uncommon,images/Customization/Charms/EC_001.png
+EC_002,Bloodied Token,A crusted fragment of blood that holds great importance in the realm.,Mementos of Prominence,General,Uncommon,images/Customization/Charms/EC_002.png
+EC_003,Naughty Piñata,It would be dangerous not to invite this bear to the party.,5th Anniversary,General,Rare,images/Customization/Charms/EC_003.png
+EC_004,5 Year Candles,A candle for every year in The Entity’s realm.,5th Anniversary,General,Uncommon,images/Customization/Charms/EC_004.png
+EC_005,Death Omen,"An engraved skull with hollowed eyes, an omen of death.",Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/EC_005.png
+EC_006,Orb of Worlds,"An orb made of toothed cogwheels, each meshing with the other to power up a dark energy.",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/EC_006.png
+FL_001,Forgotten Horror,Thick layers of rot and decay make it impossible to distinguish what’s within.,Deliverance,General,Uncommon,images/Customization/Charms/FL_001.png
+FL_002,Emerging Horror,This was more than rotting pages. This was an invitation to a universe of tales.,Deliverance,General,Rare,images/Customization/Charms/FL_002.png
+FL_003,Living Horror,"There was something real within the pages, as if they told a truth of some kind.",Deliverance,General,Very Rare,images/Customization/Charms/FL_003.png
+FL_004,Pulp Horror,"The stories were terrifying, but they held answers to mysteries within the horror.",Deliverance,General,Ultra Rare,images/Customization/Charms/FL_004.png
+FL_005,Busted GPS,A casualty of Jake Park’s rugged survivalist lifestyle.,Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/FL_005.png
+FL_006,Sandy Castle,"A pleasant image, but once a wave hits all the sand people inside will surely die.",Blissful Summer,Survivor,Rare,images/Customization/Charms/FL_006.png
+FL_007,Well-Fed Tick,A tick bloated on the blood of Jake Park.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/FL_007.png
+FL_008,Jake Figurine,A calm spirit can only go so far when you’ve got dinner to protect.,Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/FL_008.png
+FL_009,Jake’s Compass,"The compass had acted strangely, as if leading Jake into the Fog.",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/FL_009.png
+FL_010,Finger Lickers Bucket,"A bucket of deep-fried fingers, straight from the carnival’s deep fryers.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/FL_010.png
+FL_011,The Mystical Attraction,The circus was full of tricks no sane individual could foresee.,Killer Memorabilia,Killer,Very Rare,images/Customization/Charms/FL_011.png
+FL_012,Golden Pineapple,An image so fresh and tantalizing that it’s starkly out of place in this realm.,Blissful Summer,General,Uncommon,images/Customization/Charms/FL_012.png
+FL_013,Watchful Gargoyle,A stone carving that looked on as Élodie explored the streets below.,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/FL_013.png
+FL_014,VHS Porn,An all-time classic that’s one of Jeffrey Hawk’s most valued possessions.,Killer Memorabilia,Killer,Common,images/Customization/Charms/FL_014.png
+FL_015,Tropical Hammock,A simple comfort from a memory long ago...,Blissful Summer,General,Common,images/Customization/Charms/FL_015.png
+FL_016,Pool Floaty,An intensely disturbing floatation device that may be more interested in drowning you.,Blissful Summer,General,Rare,images/Customization/Charms/FL_016.png
+FL_017,Élodie’s Map,An urban landscape littered with marks and arrows to explore.,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/FL_017.png
+FL_018,Wooden Rabbit Mask,"An early design of The Huntress’ mask, carved into scratched and chipped wood.",Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/FL_018.png
+FL_019,Trophy Box,A grim collection of human fingers and animal parts.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/FL_019.png
+FL_020,Nesting Doll,"Within the larger figure is a young child, clinging to her doll.",Forgotten Toys,Killer,Rare,images/Customization/Charms/FL_020.png
+FL_021,Spherical Bloodweb,"A phenomenon of The Entity’s realm, mysterious and pulsing with blood.",Mementos of Prominence,General,Ultra Rare,images/Customization/Charms/FL_021.png
+FL_022,Rakoto Family’s Valiha,"Though broken, the musical instrument served as a memento to Élodie following her parent’s disappearance.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/FL_022.png
+FL_023,The Resentful Jester,He was angry at the world... and a raccoon too.,Deliverance,Killer,Common,images/Customization/Charms/FL_023.png
+FL_024,The Tempted Jester,He saw what could only be described as a treasure.,Deliverance,Killer,Common,images/Customization/Charms/FL_024.png
+FL_025,The Terrifying Jester,Much of the thrill came from the hunt itself.,Deliverance,Killer,Common,images/Customization/Charms/FL_025.png
+FL_026,The Unwavering Jester,"He knew what he wanted, and no amount of talk could change his mind.",Deliverance,Killer,Common,images/Customization/Charms/FL_026.png
+FL_027,The Fulfilled Jester,It’s true... the best jokes are when someone gets hurt.,Deliverance,Killer,Uncommon,images/Customization/Charms/FL_027.png
+FL_028,The Isolated Survivalist,"Having escaped to nature, he was free from the pressures of society.",Deliverance,Survivor,Common,images/Customization/Charms/FL_028.png
+FL_029,The Starving Survivalist,He knew there would be challenges. Primal challenges.,Deliverance,Survivor,Common,images/Customization/Charms/FL_029.png
+FL_030,The Desperate Survivalist,"To live, something else must die.",Deliverance,Survivor,Common,images/Customization/Charms/FL_030.png
+FL_031,The Bloody Survivalist,"He fought, and he didn’t know on which side of the battle he’d end up.",Deliverance,Survivor,Common,images/Customization/Charms/FL_031.png
+FL_032,The Battle-Hardened Survivalist,"He would live another day, but it wasn't getting easier...",Deliverance,Survivor,Uncommon,images/Customization/Charms/FL_032.png
+FL_033,Greek Trial,An ancient depiction of a monstrous creature tormenting four victims.,Greek Legends,General,Uncommon,images/Customization/Charms/FL_033.png
+FL_034,The Gorgon,A terrifying creature of Greek myth. One gaze is enough to petrify.,Greek Legends,General,Rare,images/Customization/Charms/FL_034.png
+FL_035,Mooncake,A Chinese pastry that celebrates the moon.,Lunar New Year 2021,General,Uncommon,images/Customization/Charms/FL_035.png
+GE_001,Arcade Classic,A gruesome game of life and death. But mostly death...,Video Game Day,General,Very Rare,images/Customization/Charms/GE_001.png
+GE_002,Lament Configuration,An invitation to pleasure and pain.,Hellraiser,General,Rare,images/Customization/Charms/GE_002.png
+HU_001,Universal Stasis,The Observer’s model of a universe devoid of auric energy.,Crescendo,General,Uncommon,images/Customization/Charms/HU_001.png
+HU_002,Universal Catalyst,A model of a universe birthing auric energy.,Crescendo,General,Rare,images/Customization/Charms/HU_002.png
+HU_003,Universal Chaos,"A model depicting a vibrant universe bursting with the chaos of life, death, and the existence in between.",Crescendo,General,Very Rare,images/Customization/Charms/HU_003.png
+HU_004,Universal Terminus,A model of a universe consuming itself. Oddly beautiful.,Crescendo,General,Ultra Rare,images/Customization/Charms/HU_004.png
+HU_005,Champagne on Ice,A celebration to the success of No Spin after the addition of Ji-Woon Hak.,Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/HU_005.png
+HU_006,Magnum Opus Lightstick,"Usually reserved for K-pop artists, Yun-Jin held a special celebrity status that was cause for her own lightstick.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/HU_006.png
+HU_007,Laser Bear’s Gamepad,"A limited-edition gamepad featuring Feng Min’s esports team, the Laser Bears.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/HU_007.png
+HU_008,Yun-Jin Lee Figurine,Sometimes in business you’ve got to put your foot down and get tough.,Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/HU_008.png
+HU_009,Shining Lion Avatar,"Feng Min’s avatar, owing to her nickname, “The Shining Lion.”",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/HU_009.png
+HU_010,No Spin Jet,"When you hit the big times, you fly in style.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/HU_010.png
+HU_011,No Spin Lightstick,Memorabilia for a musical group from South Korea. Four of five members died in a studio fire.,Killer Memorabilia,Killer,Very Rare,images/Customization/Charms/HU_011.png
+HU_012,Soundwave,Music so mesmerizing you can see it.,Main Stage,General,Uncommon,images/Customization/Charms/HU_012.png
+HU_013,Mightee One Earbuds,"An officially licensed pair of earbuds. Same product, extra cost.",Survivor Memorabilia,Survivor,Common,images/Customization/Charms/HU_013.png
+HU_014,Doctor’s Chess Game,"Herman Carter enjoyed a good game of chess, and the power he felt after weakening an opponent.",Killer Memorabilia,Killer,Common,images/Customization/Charms/HU_014.png
+HU_015,The Trickster Concert Ticket,A ticket to The Trickster’s concert stop in Brazil.,Main Stage,General,Uncommon,images/Customization/Charms/HU_015.png
+HU_016,Murdered Turkey,"Decapitated, gutted, and stabbed. An altogether bad day for this bird.",Thanksgiving 2021,General,Rare,images/Customization/Charms/HU_016.png
+HU_017,Mightee One Entertainment,The logo of one South Korea’s top record labels. It has direct ties to Yun-Jin Lee and Ji-Woon Hak.,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/HU_017.png
+HU_018,Ji-Woon Photocard,"A photocard of Ji-Woon Hak, it became a popular collectible among his fans.",Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/HU_018.png
+HU_019,Heartrate Monitor,The Doctor’s experiments usually ended with flat lines.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/HU_019.png
+HU_020,Mightee One Music Pad,A tool used by Yun-Jin and The Trickster when producing music.,Main Stage,General,Ultra Rare,images/Customization/Charms/HU_020.png
+HU_021,Laser Bear Logo,"The logo of Feng Min’s esports team. While representing the Laser Bears, she became the Nebula Arc champion.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/HU_021.png
+HU_022,The Prowling Performer,"The desire to create agonizing art surfaced again, and a victim had been chosen...",Crescendo,Killer,Common,images/Customization/Charms/HU_022.png
+HU_023,The Manipulative Performer,"He cried tears for his deceased bandmates, but inside he was laughing hysterically.",Crescendo,Killer,Common,images/Customization/Charms/HU_023.png
+HU_024,The Evasive Performer,"The game was far from over, and he’d do anything to keep from being caught.",Crescendo,Killer,Common,images/Customization/Charms/HU_024.png
+HU_025,The Conniving Performer,He set his victim free and took a punch to the face. This would be his best trick yet.,Crescendo,Killer,Common,images/Customization/Charms/HU_025.png
+HU_026,The Innocent Performer,He played himself off as the victim. He couldn’t let them find out.,Crescendo,Killer,Uncommon,images/Customization/Charms/HU_026.png
+HU_027,The Ambitious Producer,She had bigger dreams and it would require some strategic moves to reach them.,Crescendo,Survivor,Common,images/Customization/Charms/HU_027.png
+HU_028,The Frustrated Producer,Dealing with The Trickster was becoming much more than a full-time job.,Crescendo,Survivor,Common,images/Customization/Charms/HU_028.png
+HU_029,The Disturbed Producer,She found signs that The Trickster’s darkness ran deeper than she thought.,Crescendo,Survivor,Common,images/Customization/Charms/HU_029.png
+HU_030,The Relentless Producer,"She’d keep the pedal to the floor, literally, if it meant figuring out what The Trickster was up to.",Crescendo,Survivor,Common,images/Customization/Charms/HU_030.png
+HU_031,The Untrusting Producer,"The seed of doubt had been planted. Every time she looked at The Trickster, an alarm in her head went off.",Crescendo,Survivor,Uncommon,images/Customization/Charms/HU_031.png
+HU_032,Blood Bag,Useful for when The Doctor kept a subject alive to prolong the torture.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/HU_032.png
+HU_033,Bing Bong Boo,Who’s the spooky ghost under the sheet?,The Midnight Grove,Survivor,Special Event,images/Customization/Charms/HU_033.png
+HU_034,Neacrow,A streetwise effigy that keeps the crows away.,The Midnight Grove,Killer,Special Event,images/Customization/Charms/HU_034.png
+HU_035,Black Cat,A cat with a smart fashion sense.,The Midnight Grove,General,Special Event,images/Customization/Charms/HU_035.png
+HU_036,Heart in a Cage,"In the end, we’re nothing but captive hearts.<br><br>Design inspired by <b>Cozaco</b>.",Community,Killer,Very Rare,images/Customization/Charms/HU_036.png
+HU_037,Pocket Entity,An unusual gaming device from another dimension. Remember to feed your Entity!<br><br>Design inspired by <b>Chessa</b>.,Community,Survivor,Very Rare,images/Customization/Charms/HU_037.png
+HU_038,Saw Blade Spiral,An unusual shape found in The Entity’s realm. It often leads to terror.,The Book of Saw,General,Rare,images/Customization/Charms/HU_038.png
+HU_039,Knight’s Helm,"A relic from a faraway place, where factions battle for survival.",For Honor,General,Rare,images/Customization/Charms/HU_039.png
+HU_041,Kabuki Grin,A rare kabuki mask that only materializes in a small number of dimensions.,Lost Artifacts,General,Artifact,images/Customization/Charms/HU_041.png
+HU_042,Twitch,An unusual design that may mean something to those in another universe.,Horror Stream,General,Uncommon,images/Customization/Charms/HU_042.png
+IO_001,Gift Hatch,"It’s all yours, whether you want to escape with it or kick it shut.",Bone Chill,General,Special Event,images/Customization/Charms/IO_001.png
+IO_002,Christmas Inferno,A snowman who won’t be around next year.,Bone Chill,Killer,Special Event,images/Customization/Charms/IO_002.png
+IO_003,Cocoa Dip,"A marshmallow figure floating happily in cocoa, ignorant to his impending demise.",Bone Chill,Survivor,Special Event,images/Customization/Charms/IO_003.png
+IO_004,Auric Cell,"A small, glowing fragment that holds the immense power of creation.",Mementos of Prominence,General,Ultra Rare,images/Customization/Charms/IO_004.png
+JU_001,Arachnid Egg,Here begins the infestation.,Terra Arachna,General,Uncommon,images/Customization/Charms/JU_001.png
+JU_002,Arachnid Hatchling,"From the cocoon-like egg emerges wiry, spindly legs.",Terra Arachna,General,Rare,images/Customization/Charms/JU_002.png
+JU_003,Arachnid Predator,"Though newly born, it is already prepared to feast.",Terra Arachna,General,Very Rare,images/Customization/Charms/JU_003.png
+JU_004,Arachnid Mother,One day its spiderlings will spill across the realm.,Terra Arachna,General,Ultra Rare,images/Customization/Charms/JU_004.png
+JU_005,Conundrum of Carnage,A book published by Pamela Jenkins that may not hold up to fact checks.,The Book of Saw,Survivor,Uncommon,images/Customization/Charms/JU_005.png
+JU_006,Play Me,"""Dr. Gordon, this is your wake-up call.""",The Book of Saw,Survivor,Rare,images/Customization/Charms/JU_006.png
+JU_007,Cupid’s Ship,A ship that carries hope for love.,Valentine’s 2022,Survivor,Rare,images/Customization/Charms/JU_007.png
+JU_008,Detective Tapp Figurine,"An intriguing clue, but try not to obsess over it too much.",Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/JU_008.png
+JU_009,Toilet Heart,Sometimes following your heart doesn’t take you where you’d like.,The Book of Saw,General,Uncommon,images/Customization/Charms/JU_009.png
+JU_010,Original Pig,"A mask from the Chinese market, it was the first of many used in Jigsaw’s crusade.",The Book of Saw,Killer,Rare,images/Customization/Charms/JU_010.png
+JU_011,Invitation to Play,"""Do you want to play a game?""",The Book of Saw,Killer,Very Rare,images/Customization/Charms/JU_011.png
+JU_012,Padlock,"To unlock it, ask yourself: What are you willing to do in order to live?",The Book of Saw,General,Uncommon,images/Customization/Charms/JU_012.png
+JU_013,Survivor’s Sweet,A sweet treat for the one you’d sacrifice yourself for.,Valentine’s 2022,Survivor,Common,images/Customization/Charms/JU_013.png
+JU_014,Killer's Sweet,What lengths would you go to for love?,Valentine’s 2022,Killer,Common,images/Customization/Charms/JU_014.png
+JU_015,Gideon Meat Packing,The slaughterhouse closed but the killings continued.,The Book of Saw,General,Common,images/Customization/Charms/JU_015.png
+JU_016,Mr. Snuggles,"""Until you come clean, many more will die.""",The Book of Saw,General,Rare,images/Customization/Charms/JU_016.png
+JU_017,Slain Riot,"A pin from Nea’s favorite punk rock band, Slain Riot.",Counterculture,Survivor,Common,images/Customization/Charms/JU_017.png
+JU_018,Smiling Bobby,How could you say no to a smile like that?,The Book of Saw,Killer,Uncommon,images/Customization/Charms/JU_018.png
+JU_019,Coldwind Harvester,This combine has harvested more than crops.,Coldwind Farm,Killer,Uncommon,images/Customization/Charms/JU_019.png
+JU_020,Meat Tree,Call the crows. The feast is ready.,Coldwind Farm,Killer,Rare,images/Customization/Charms/JU_020.png
+JU_021,Tricycle Billy,A jovial puppet that carries a very serious message.,The Book of Saw,General,Ultra Rare,images/Customization/Charms/JU_021.png
+JU_022,Rotten the Cat,"Nea’s kitty, Rotten, dressed in his favorite punk rock outfit.",Counterculture,Survivor,Rare,images/Customization/Charms/JU_022.png
+JU_023,Test of Loyalty,She would prove herself as the only rightful successor of Jigsaw.,The Book of Saw,Killer,Common,images/Customization/Charms/JU_023.png
+JU_024,Test of Design,Rotten entrails were poured in the tunnel that collected the Gideon meatpacking plant's wastewater.,The Book of Saw,Killer,Common,images/Customization/Charms/JU_024.png
+JU_025,Test of Configuration,"Blood dribbled from a brick wall, displaying an elaborate drawing as the key to salvation.",The Book of Saw,Killer,Common,images/Customization/Charms/JU_025.png
+JU_026,Test of Judgement,"To become Jigsaw's successor, she made her own decisions.",The Book of Saw,Killer,Common,images/Customization/Charms/JU_026.png
+JU_027,Test of Execution,"Fueled with adrenaline, she put on the mask once more.",The Book of Saw,Killer,Uncommon,images/Customization/Charms/JU_027.png
+JU_028,Evidence of Turmoil,"Detective Tapp planned to vacation with his wife, but he couldn't leave now...",The Book of Saw,Survivor,Common,images/Customization/Charms/JU_028.png
+JU_029,Evidence of Crime,"From inside the abandoned factory, a scream cried out.",The Book of Saw,Survivor,Common,images/Customization/Charms/JU_029.png
+JU_030,Evidence of Action,Tapp had little time to react. He chased the cloaked figure.,The Book of Saw,Survivor,Common,images/Customization/Charms/JU_030.png
+JU_031,Evidence of Torture,A bloody game was planned for a young man.,The Book of Saw,Survivor,Common,images/Customization/Charms/JU_031.png
+JU_032,Evidence of Agony,Detective Tapp agonized over the choice he made.,The Book of Saw,General,Uncommon,images/Customization/Charms/JU_032.png
+JU_033,Lunar Tiger,A brave predator with a ferocious bite.,Lurking Stripes,General,Special Event,images/Customization/Charms/JU_033.png
+JU_034,Courageous Tiger,A statuette depicting the third animal of the Chinese zodiac.,Lurking Stripes,General,Special Event,images/Customization/Charms/JU_034.png
+K01_PCharm001,Iridescent Unnerving Presence Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K01_PCharm001.png
+K01_PCharm002,Iridescent Brutal Strength Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K01_PCharm002.png
+K01_PCharm003,Iridescent Agitation Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K01_PCharm003.png
+K02_PCharm001,Iridescent Predator Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K02_PCharm001.png
+K02_PCharm002,Iridescent Bloodhound Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K02_PCharm002.png
+K02_PCharm003,Iridescent Shadowborn Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K02_PCharm003.png
+K03_PCharm001,Iridescent Enduring Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K03_PCharm001.png
+K03_PCharm002,Iridescent Lightborn Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K03_PCharm002.png
+K03_PCharm003,Iridescent Tinkerer Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K03_PCharm003.png
+K04_PCharm001,Iridescent Stridor Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K04_PCharm001.png
+K04_PCharm002,Iridescent Thanatophobia Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K04_PCharm002.png
+K04_PCharm003,Iridescent A Nurse's Calling Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K04_PCharm003.png
+K05_PCharm001,Iridescent Hex: The Third Seal Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K05_PCharm001.png
+K05_PCharm002,Iridescent Hex: Ruin Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K05_PCharm002.png
+K05_PCharm003,Iridescent Hex: Devour Hope Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K05_PCharm003.png
+K06_PCharm001,Iridescent Save the Best for Last Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K06_PCharm001.png
+K06_PCharm002,Iridescent Play with Your Food Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K06_PCharm002.png
+K06_PCharm003,Iridescent Dying Light Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K06_PCharm003.png
+K07_PCharm001,Iridescent Overwhelming Presence Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K07_PCharm001.png
+K07_PCharm002,Iridescent Monitor & Abuse Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K07_PCharm002.png
+K07_PCharm003,Iridescent Overcharge Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K07_PCharm003.png
+K08_PCharm001,Iridescent Beast of Prey Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K08_PCharm001.png
+K08_PCharm002,Iridescent Territorial Imperative Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K08_PCharm002.png
+K08_PCharm003,Iridescent Hex: Huntress Lullaby Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K08_PCharm003.png
+K09_PCharm001,Iridescent Knock Out Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K09_PCharm001.png
+K09_PCharm002,Iridescent Barbecue & Chili Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K09_PCharm002.png
+K09_PCharm003,Iridescent Franklin's Demise Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K09_PCharm003.png
+K10_PCharm001,Iridescent Fire Up Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K10_PCharm001.png
+K10_PCharm002,Iridescent Remember Me Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K10_PCharm002.png
+K10_PCharm003,Iridescent Blood Warden Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K10_PCharm003.png
+K11_PCharm001,Iridescent Hangman's Trick Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K11_PCharm001.png
+K11_PCharm002,Iridescent Surveillance Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K11_PCharm002.png
+K11_PCharm003,Iridescent Make Your Choice Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K11_PCharm003.png
+K12_PCharm001,Iridescent Bamboozle Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K12_PCharm001.png
+K12_PCharm002,Iridescent Coulrophobia Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K12_PCharm002.png
+K12_PCharm003,Iridescent Pop Goes the Weasel Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K12_PCharm003.png
+K13_PCharm001,Iridescent Spirit Fury Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K13_PCharm001.png
+K13_PCharm002,Iridescent Hex: Haunted Ground Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K13_PCharm002.png
+K13_PCharm003,Iridescent Rancor Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K13_PCharm003.png
+K14_PCharm001,Iridescent Discordance Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K14_PCharm001.png
+K14_PCharm002,Iridescent Mad Grit Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K14_PCharm002.png
+K14_PCharm003,Iridescent Iron Maiden Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K14_PCharm003.png
+K15_PCharm001,Iridescent Corrupt Intervention Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K15_PCharm001.png
+K15_PCharm002,Iridescent Infectious Fright Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K15_PCharm002.png
+K15_PCharm003,Iridescent Dark Devotion Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K15_PCharm003.png
+K16_PCharm001,Iridescent I'm All Ears Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K16_PCharm001.png
+K16_PCharm002,Iridescent Thrilling Tremors Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K16_PCharm002.png
+K16_PCharm003,Iridescent Furtive Chase Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K16_PCharm003.png
+K17_PCharm001,Iridescent Jolt Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K17_PCharm001.png
+K17_PCharm002,Iridescent Fearmonger Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K17_PCharm002.png
+K17_PCharm003,Iridescent Claustrophobia Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K17_PCharm003.png
+K18_PCharm001,Iridescent Zanshin Tactics Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K18_PCharm001.png
+K18_PCharm002,Iridescent Blood Echo Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K18_PCharm002.png
+K18_PCharm003,Iridescent Nemesis Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K18_PCharm003.png
+K19_PCharm001,Iridescent Gearhead Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K19_PCharm001.png
+K19_PCharm002,Iridescent Dead Man's Switch Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K19_PCharm002.png
+K19_PCharm003,Iridescent Hex: Retribution Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K19_PCharm003.png
+K20_PCharm001,Iridescent Forced Penance Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K20_PCharm001.png
+K20_PCharm002,Iridescent Trail of Torment Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K20_PCharm002.png
+K20_PCharm003,Iridescent Deathbound Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K20_PCharm003.png
+K21_PCharm001,Iridescent Dragon's Grip Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K21_PCharm001.png
+K21_PCharm002,Iridescent Hex: Blood Favor Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K21_PCharm002.png
+K21_PCharm003,Iridescent Hex: Undying Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K21_PCharm003.png
+K22_PCharm001,Iridescent Hoarder Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K22_PCharm001.png
+K22_PCharm002,Iridescent Oppression Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K22_PCharm002.png
+K22_PCharm003,Iridescent Coup de Grâce Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K22_PCharm003.png
+K23_PCharm001,Iridescent Starstruck Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K23_PCharm001.png
+K23_PCharm002,Iridescent Hex: Crowd Control Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K23_PCharm002.png
+K23_PCharm003,Iridescent No Way Out Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K23_PCharm003.png
+K24_PCharm001,Iridescent Lethal Pursuer Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K24_PCharm001.png
+K24_PCharm002,Iridescent Hysteria Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K24_PCharm002.png
+K24_PCharm003,Iridescent Eruption Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K24_PCharm003.png
+K25_PCharm001,Iridescent Deadlock Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K25_PCharm001.png
+K25_PCharm002,Iridescent Hex: Plaything Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K25_PCharm002.png
+K25_PCharm003,Iridescent Scourge Hook: Gift of Pain Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K25_PCharm003.png
+K26_PCharm001,Iridescent Grim Embrace Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K26_PCharm001.png
+K26_PCharm002,Iridescent Scourge Hook: Pain Resonance Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K26_PCharm002.png
+K26_PCharm003,Iridescent Hex: Pentimento Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K26_PCharm003.png
+K27_PCharm001,Iridescent Scourge Hook: Floods of Rage Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K27_PCharm001.png
+K27_PCharm002,Iridescent Call of Brine Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K27_PCharm002.png
+K27_PCharm003,Iridescent Merciless Storm Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K27_PCharm003.png
+K28_PCharm001,Iridescent Dissolution Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K28_PCharm001.png
+K28_PCharm002,Iridescent Darkness Revealed Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K28_PCharm002.png
+K28_PCharm003,Iridescent Septic Touch Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K28_PCharm003.png
+K29_PCharm001,Iridescent Superior Anatomy Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K29_PCharm001.png
+K29_PCharm002,Iridescent Awakened Awareness Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K29_PCharm002.png
+K29_PCharm003,Iridescent Terminus Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K29_PCharm003.png
+K30_PCharm001,Iridescent Nowhere to Hide Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K30_PCharm001.png
+K30_PCharm002,Iridescent Hex: Face the Darkness Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K30_PCharm002.png
+K30_PCharm003,Iridescent Hubris Charm,A keepsake gained upon mastery of a particular skill.,,Killer,Uncommon,images/Customization/PerkCharms/K30_PCharm003.png
+KE_001,Wrathful Well,An old stone well haunted by a wrathful presence.,Ringu,General,Rare,images/Customization/Charms/KE_001.png
+KE_002,Cursed Videotape,A videotape filled with disturbing images.,Ringu,General,Uncommon,images/Customization/Charms/KE_002.png
+KE_003,Pot of Gold,A shimmering pot at the far end of a rainbow.,Fortune's Favor,General,Very Rare,images/Customization/Charms/KE_003.png
+LI_001,Curious Concoction,A mixture of foul ichors gathered by the Observer.,Devotion,General,Uncommon,images/Customization/Charms/LI_001.png
+LI_002,Congealing Concoction,A strange shape begins to take form inside the vial.,Devotion,General,Rare,images/Customization/Charms/LI_002.png
+LI_003,Crystalizing Concoction,The sediments harden and twist into a familiar and horrifying shape.,Devotion,General,Very Rare,images/Customization/Charms/LI_003.png
+LI_004,Conscious Concoction,"Whatever was in here, it was unmistakably alive.",Devotion,General,Ultra Rare,images/Customization/Charms/LI_004.png
+LI_005,Pub Dartboard,"Whose idea was it to give drunk people sharp projectiles, anyway",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/LI_005.png
+LI_006,Jeff’s Rescue Pittie,Did Jeff rescue the dog or did the dog rescue Jeff,Ormond Memories,Survivor,Rare,images/Customization/Charms/LI_006.png
+LI_007,Rugby Championship,"Of all his rugby awards, this is the one of which David is most proud.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/LI_007.png
+LI_008,David King Rugby Figurine,"An absolute terror on the pitch, David set records that may never be broken.",Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/LI_008.png
+LI_009,Death Mirror CD,What’s better than a new album by your favorite band? Getting to design its album cover.,Ormond Memories,Survivor,Uncommon,images/Customization/Charms/LI_009.png
+LI_010,Susie's Locker,A typical high-school locker. Plus or minus a few weapons.,Ormond Memories,Killer,Rare,images/Customization/Charms/LI_010.png
+LI_011,Porcelain Dolls,"A doll from Charlotte’s childhood with its chest smashed, and a smaller doll representing Victor inserted.",Killer Memorabilia,Killer,Very Rare,images/Customization/Charms/LI_011.png
+LI_012,Susie's Notebook,"Filled with attempts to come up with a Legion logo, but none of them came out quite right.",Ormond Memories,Killer,Uncommon,images/Customization/Charms/LI_012.png
+LI_013,Reynard's Den Sign,The pub David worked at. Carries fond memories of sticky floors and the smell of stale lager.,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/LI_013.png
+LI_014,Susie's Student ID,Anyone who hoped to get a positive visual on Susie after seeing this card will be sorely disappointed.,Ormond Memories,Killer,Common,images/Customization/Charms/LI_014.png
+LI_015,Louise's Sugar Shack,A magical place with treats so delicious they can only run it a few months a year.,Cabane A Sucre,General,Common,images/Customization/Charms/LI_015.png
+LI_016,Victor's Toy Soldier,"Madeleine bought a porcelain doll and a toy soldier: one for if she had a girl, and one for a boy. The reality of the situation was far more complicated.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/LI_016.png
+LI_017,Jeff's Ormond Sketch,A regular noticed Jeff’s sketches and commissioned a mural at the abandoned lodge up Mount Ormond.,Ormond Memories,Survivor,Common,images/Customization/Charms/LI_017.png
+LI_018,Witch Hunter's Tome,A book filled with sickening trials for witches carried by those hunting Victor and Charlotte.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/LI_018.png
+LI_019,Child's Coffin,Nobody expected Charlotte and Victor to survive beyond infancy. This coffin remains unfilled.,Killer Memorabilia,Killer,Common,images/Customization/Charms/LI_019.png
+LI_020,Maple and Bacon Poutine,"As if this savory snack weren’t already perfect, they’ve been upgraded with maple-infused bacon.",Cabane A Sucre,General,Rare,images/Customization/Charms/LI_020.png
+LI_021,Entity-Covered Flashlight,"The Entity will choke out all light, great and small.",Devotion,General,Ultra Rare,images/Customization/Charms/LI_021.png
+LI_022,Sugary Maple Syrup,Amber-colored syrup that makes any meal better. Or at least stickier.,Cabane A Sucre,General,Rare,images/Customization/Charms/LI_022.png
+LI_023,The Abhorred Outcasts,A rare circumstance of birth led to a life of discrimination.,A Dream of Escape,Killer,Common,images/Customization/Charms/LI_023.png
+LI_024,The Hunted Outcasts,"Without protection from maman, they lived their lives on the run.",A Dream of Escape,Killer,Common,images/Customization/Charms/LI_024.png
+LI_025,The Desperate Outcasts,"Away from civilization, they struggled to survive.",A Dream of Escape,Killer,Common,images/Customization/Charms/LI_025.png
+LI_026,The Escaping Outcasts,Dreams of travelling to the new world gave them motivation to push on.,A Dream of Escape,Killer,Common,images/Customization/Charms/LI_026.png
+LI_027,The Inseparable Outcasts,Nothing could tear them apart. Not even death.,A Dream of Escape,Killer,Uncommon,images/Customization/Charms/LI_027.png
+LI_028,The Distant Athlete,His life was punctuated and defined by violence.,King of Manchester,Survivor,Common,images/Customization/Charms/LI_028.png
+LI_029,The Infamous Athlete,He felt the burden of expectations from family and fans.,King of Manchester,Survivor,Common,images/Customization/Charms/LI_029.png
+LI_030,The Melancholy Athlete,"Fearless in the face of a fight, a different confrontation terrified him.",King of Manchester,Survivor,Common,images/Customization/Charms/LI_030.png
+LI_031,The Remorseful Athlete,"Battered and bruised, he found the conviction to speak his truth.",King of Manchester,Survivor,Common,images/Customization/Charms/LI_031.png
+LI_032,The Solitary Athlete,He found within himself a new type of courage.,King of Manchester,Survivor,Uncommon,images/Customization/Charms/LI_032.png
+LI_033,Progress Flag,The only way forward is together!,Pride 2022,General,Uncommon,images/Customization/Charms/LI_033.png
+ME_004,Feathers of Pride,"Spread your wings and soar, no matter who you are.",Pride 2022,General,Rare,images/Customization/Charms/ME_004.png
+ME_006,Maple Leaf,With love from the developers of Dead By Daylight in the frozen north.,Canada Day 2022,General,Uncommon,images/Customization/Charms/ME_006.png
+ME_007,Entity’s Embrace,For the folks who make all this horror possible.,,General,Ultra Rare,images/Customization/Charms/ME_007.png
+ME_008,Hammer of Exile,"A mallet designed to banish interlopers. Hopefully, it never needs to be used.",,General,Rare,images/Customization/Charms/ME_008.png
+ME_009,Captured Heart,Lovers in a dangerous realm.,Hooked on You,General,Very Rare,images/Customization/Charms/ME_009.png
+ME_010,Rancid Cupcake,I wouldn’t eat that if I were you.,Twisted Masquerade Collection,General,Special Event,images/Customization/Charms/ME_010.png
+ME_011,Pop-up Card,Pop-up cards: the original jump scares.,Twisted Masquerade Collection,Killer,Special Event,images/Customization/Charms/ME_011.png
+ME_012,Celebratory Skull,Legend has it that the last person to wear a party hat in the fog ended up like this.,Twisted Masquerade Collection,Survivor,Special Event,images/Customization/Charms/ME_012.png
+NO_001,Bizarre Bunny,"An adorable rabbit! Something about it seems a little weird, though.",Discordance,General,Uncommon,images/Customization/Charms/NO_001.png
+NO_002,Bursting Bunny,What’s its head doing? What is that sound they’re making? That can’t be right.,Discordance,General,Rare,images/Customization/Charms/NO_002.png
+NO_003,Bloodcurdling Bunny,Maybe it’s time to start running.,Discordance,General,Very Rare,images/Customization/Charms/NO_003.png
+NO_004,Beastly Bunny,Oh no. No no no. No NO NO NO,Discordance,General,Ultra Rare,images/Customization/Charms/NO_004.png
+NO_005,Carrot Hoarder,"A seemingly trustworthy rabbit. This one seems vegan, at least.",Discordance,Survivor,Uncommon,images/Customization/Charms/NO_005.png
+NO_006,Podcast Player,"A phone, mostly used to watch a popular web series.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/NO_006.png
+NO_007,Abby,Science Girl’s faithful sidekick.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/NO_007.png
+NO_008,Jonah Vasquez Figurine,"A brilliant codebreaker, hounded by a series of numbers he couldn’t quite crack.",Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/NO_008.png
+NO_009,Science Girl Issue #1,"It may not be worth as much as some first issues, but it means a lot to Claudette.",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/NO_009.png
+NO_010,Obliterated Ambulance,"The ambulance they took Sally in never made it to the hospital, and she was assumed dead.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/NO_010.png
+NO_011,Blighted Crow,The Bleed did things to the flora and fauna that Talbot would spend the rest of his life trying to understand.,Killer Memorabilia,Killer,Very Rare,images/Customization/Charms/NO_011.png
+NO_012,Stolen Pocketwatch,A pocketwatch that belonged in life to another nurse at Crotus Prenn.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/NO_012.png
+NO_013,Science Girl Logo,Claudette’s logo for her childhood alter ego: Science Girl.,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/NO_013.png
+NO_014,The Padded Room,"A room for a patient of Crotus Prenn, intended to keep them safe from themselves.",Killer Memorabilia,Killer,Common,images/Customization/Charms/NO_014.png
+NO_015,The Auris,"Evidence that the Observer was once, in fact, here.",Discordance,General,Common,images/Customization/Charms/NO_015.png
+NO_016,Poisonous Foxglove,"If its beauty isn’t heartstopping enough, the poison within it certainly is.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/NO_016.png
+NO_017,Deadly Fluffle,A fluffle is a group of rabbits. Sometimes seeing a fluffle means it’s time to run.,Discordance,Survivor,Common,images/Customization/Charms/NO_017.png
+NO_018,Vigo’s Journal,His scribbles and scratchings speak to a brilliant mind that began to lose grip on reality.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/NO_018.png
+NO_019,Foul Fungus,A scraping from the Tree of Death. The smell permeates even thick glass.,Killer Memorabilia,Killer,Common,images/Customization/Charms/NO_019.png
+NO_020,Gnaw-rly Waves,"The easiest way to learn if the water is safe is to find out, conclusively, that it isn’t.",Survivor Memorabilia,General,Rare,images/Customization/Charms/NO_020.png
+NO_021,Terror Carousel,A mortifying carnival ride clearly inspired by a designer’s nightmares.,Midsummer Mayhem,General,Ultra Rare,images/Customization/Charms/NO_021.png
+NO_022,Killer Corn Husk,A corn husk doll made to conceal a hidden blade.,Midsummer Mayhem,General,Rare,images/Customization/Charms/NO_022.png
+NO_023,Curious Chemist,He followed a lead to North Africa to learn of a curious new lifeform.,Enter The Bleed Collection,Killer,Common,images/Customization/Charms/NO_023.png
+NO_024,Intellectual Chemist,"Surrounded by some of humanity’s most depraved members, he reflected on the human condition.",Enter The Bleed Collection,Killer,Common,images/Customization/Charms/NO_024.png
+NO_025,Tenacious Chemist,"Confronted with this terrifying thing called the Bleed, he steeled his nerves and went in.",Enter The Bleed Collection,Killer,Common,images/Customization/Charms/NO_025.png
+NO_026,Mystified Chemist,"Surrounded by bizarre and surreal blue and purple vines, he approached the situation the only way he knew how. Like a chemist.",Enter The Bleed Collection,Killer,Common,images/Customization/Charms/NO_026.png
+NO_027,Sublime Chemist,"In the Bleed, something within him changed.",Enter The Bleed Collection,Killer,Uncommon,images/Customization/Charms/NO_027.png
+NO_028,Analytical Agent,"He was a professional codebreaker for the Agency, an elite puzzle-solver.",Covert Codebreaker Collection,Survivor,Common,images/Customization/Charms/NO_028.png
+NO_029,Rebellious Agent,His superiors didn't like how close he was getting to the truth.,Covert Codebreaker Collection,Survivor,Common,images/Customization/Charms/NO_029.png
+NO_030,Uncertain Agent,"One name didn't fit the list he decoded: among billionaires and corporations, a high school teacher.",Covert Codebreaker Collection,Survivor,Common,images/Customization/Charms/NO_030.png
+NO_031,Embroiled Agent,The teacher led him deeper down the rabbit hole.,Covert Codebreaker Collection,Survivor,Common,images/Customization/Charms/NO_031.png
+NO_032,Unearthing Agent,"He, and only he, could root out the corruption that went all the way to the top.",Covert Codebreaker Collection,Survivor,Uncommon,images/Customization/Charms/NO_032.png
+NO_033,Killer of the Sea,"Thankfully, they haven't started killing on land. Yet.",Midsummer Mayhem,General,Rare,images/Customization/Charms/NO_033.png
+NO_034,Scout Regiment Crest,The Scout Regiment handled the most dangerous tasks in the fight against the Titans.,Attack on Titan Collection,Survivor,Uncommon,images/Customization/Charms/NO_034.png
+NO_035,Military Police Regiment Crest,Only the best and brightest were invited to apply to this branch of the military.,Attack on Titan Collection,Survivor,Uncommon,images/Customization/Charms/NO_035.png
+NO_036,Garrison Regiment Crest,Their duty was to maintain order inside the Walls.,Attack on Titan Collection,Survivor,Uncommon,images/Customization/Charms/NO_036.png
+NO_037,Cadet Corps Crest,The Cadet Corps did its best to give new soldiers the tools they needed to survive.,Attack on Titan Collection,General,Uncommon,images/Customization/Charms/NO_037.png
+NO_038,Wall Titan,Nobody could have expected what they’d see when a hole was punched in the wall.,Attack on Titan Collection,Killer,Uncommon,images/Customization/Charms/NO_038.png
+OR_001,Blue Vial,One of Umbrella’s first breakthroughs in bio organic weaponry. This sample has been made inert.,PROJECT W Collection,General,Rare,images/Customization/Charms/OR_001.png
+OR_002,Green Vial,A further breakthrough that could cause extreme mutations. This sample has been made inert.,PROJECT W Collection,General,Rare,images/Customization/Charms/OR_002.png
+OR_003,Purple Vial,"A step above the contents of the previous breakthrough, it could repair dead cells in the host. This sample has been made inert.",PROJECT W Collection,General,Rare,images/Customization/Charms/OR_003.png
+OR_004,Red Vial,"Created by combining the contents of previous experiments, it would cause terrifying mutations and raise the dead. This sample has been made inert.",PROJECT W Collection,General,Rare,images/Customization/Charms/OR_004.png
+PL_001,Dilapidated Plane,"After flying through a Bleed, perforated and burnt, this biplane was destined to become scrap.",House of Arkham,General,Uncommon,images/Customization/Charm/PL_001.png
+PL_002,Renovated Plane,"As time passed, though, it seemed to be in better shape than originally thought.",House of Arkham,General,Rare,images/Customization/Charm/PL_002.png
+PL_003,Rehabilitated Plane,"With no work by the engineers, it was curiously back in flying shape.",House of Arkham,General,Very Rare,images/Customization/Charm/PL_003.png
+PL_004,Contaminated Plane,But it no longer belonged to the war effort. It belonged to… something else.,House of Arkham,General,Ultra Rare,images/Customization/Charm/PL_004.png
+PL_005,Moonstone Café Logo,Mikaela’s café was emblazoned with a logo that was undoubtedly Mikaela.,And Soon the Fog,General,Uncommon,images/Customization/Charm/PL_005.png
+PL_006,Moonstone Café Cup,"Black coffee is on the menu, but black magic is strictly forbidden.",And Soon the Fog,General,Rare,images/Customization/Charm/PL_006.png
+PL_007,Meg-alodon,"Her running team came up with some less-than-flattering nicknames for her, but she imagined herself like a shark: it’s only a matter of time before she would catch anyone in her path.",Survivor Memorabilia,General,Rare,images/Customization/Charm/PL_007.png
+PL_008,Mikaela Doll,"A gifted storyteller, Mikaela was quick to offer a helping hand—be it a hot cup of joe or a mystical spell",Vinyl Dolls,General,Very Rare,images/Customization/Charm/PL_008.png
+PL_009,Short-Distance Gold,She shattered regional records at her last high school meet. Those records remain unbroken to this day.,Survivor Memorabilia,General,Uncommon,images/Customization/Charm/PL_009.png
+PL_010,Ghost Face’s Camera,He experimented with cameras as a way to document his murders.,Killer Memorabilia,General,Rare,images/Customization/Charm/PL_010.png
+PL_011,Carl Doll,"When his coworker called in sick, he reluctantly covered the shift. It would be his last.",Vinyl Dolls,General,Very Rare,images/Customization/Charm/PL_011.png
+PL_012,Exposed Film Roll,A roll of film he never developed. Its contents have been exposed to the light and are lost forever.,Killer Memorabilia,General,Uncommon,images/Customization/Charm/PL_012.png
+PL_013,Witchy Old Broom,"There are for more efficient brooms on the market, but it’s not about that: it’s about the aesthetic.",And Soon the Fog,General,Common,images/Customization/Charm/PL_013.png
+PL_014,Dramatic Death,"These masks represent the wide range of human emotion: the joy of killing, and the sorrow of not having someone to kill anymore.",Killer Memorabilia,General,Common,images/Customization/Charm/PL_014.png
+PL_015,Gravy Boat,A vessel with the powerful ability to make dry turkey palatable.,Autumn Chill,General,Common,images/Customization/Charm/PL_015.png
+PL_016,Crushed Car,A tiny toy automobile found on the dashboard of a compacted car from Autohaven.,Killer Memorabilia,General,Rare,images/Customization/Charm/PL_016.png
+PL_017,Acceptance Package,"With a full scholarship for track, Meg was excited to start a new chapter of her life at college. This letter was as close as she got.",Survivor Memorabilia,General,Common,images/Customization/Charm/PL_017.png
+PL_020,Undead Crow,"Even in death, that infernal cawing never stops.",Tricks and Treats,General,Rare,images/Customization/Charm/PL_020.png
+PL_021,Phantasmal Painting,Is it a trick of the light? Or is something really emerging,House of Arkham,General,Ultra Rare,images/Customization/Charm/PL_021.png
+PL_022,Vacation Crow,"Occasionally, the crows go on holiday to creepily stare at tourists.",Autumn Chill,General,Rare,images/Customization/Charm/PL_022.png
+PL_023,Frightening Stalker,Nothing appealed to him more than a good scary story.,Beneath The Mask,General,Common,images/Customization/Charm/PL_023.png
+PL_024,Meticulous Stalker,"He planned his murders tirelessly, architecting a death that would terrify the world.",Beneath The Mask,General,Common,images/Customization/Charm/PL_024.png
+PL_025,Furious Stalker,"An underground paper made a joke of him, and threatened to destroy his legacy.",Beneath The Mask,General,Common,images/Customization/Charm/PL_025.png
+PL_026,Chaotic Stalker,"All of his careful planning fell to pieces when he saw the paper's headquarters, and he entered a murderous rage.",Beneath The Mask,General,Common,images/Customization/Charm/PL_026.png
+PL_027,Satisfied Stalker,"Without his mask, or his method, he created a new story that night.",Beneath The Mask,General,Uncommon,images/Customization/Charm/PL_027.png
+PL_028,The Hanged Man Card,"The first of a series of tarot cards that came to Mikaela in a dream. She felt paralyzed in her writing, unable to create or perform.",And Soon The Fog,General,Common,images/Customization/Charm/PL_028.png
+PL_029,The Tower Card,"The second tarot card from her dream. Memories of forgetting her words, freezing on stage, choking flooded her mind.",And Soon The Fog,General,Common,images/Customization/Charm/PL_029.png
+PL_030,The Judgement Card,The third card from her dream. She pondered what storytelling even meant to her. Was it created? Or remembered,And Soon The Fog,General,Common,images/Customization/Charm/PL_030.png
+PL_031,The Death Card,The fourth card from her dream. She shed the rules imposed on her by prescriptivist teachers and wrote with her heart.,And Soon The Fog,General,Common,images/Customization/Charm/PL_031.png
+PL_032,The Magician Card,"The fifth card from her dream. Once she found her voice, the audience listened on bated breath, enraptured.",And Soon The Fog,General,Uncommon,images/Customization/Charm/PL_032.png
+PL_042,Lil’ Monster,Where did they get the tiny body parts to build him,,General,Special Event,images/Customization/Charm/PL_042.png
+PL_043,Megcrow,This is the longest she has ever stood still.,,General,Special Event,images/Customization/Charm/PL_043.png
+PL_044,Creepy Corn,Take a bite of it before it takes a bite of you.,,General,Special Event,images/Customization/Charm/PL_044.png
+PL_045,PUBG Frying Pan,"When it’s one versus all, sometimes you have to make do with any weapon you can find.",,General,Rare,images/Customization/Charm/PL_045.png
+PL_046,Voxel Trapper,A 3D representation of a terrifying son of a coal magnate.,,General,Rare,images/Customization/Charm/PL_046.png
+PL_047,Voxel Yui,A 3D representation of a hardened street racer.,,General,Rare,images/Customization/Charm/PL_047.png
+PL_048,Voxel Spirit,A 3D representation of a chilling ghost.,,General,Rare,images/Customization/Charm/PL_048.png
+PL_049,Hand-Painted Dwight,A lovingly painted miniature Dwight… but painted by whom,,General,Rare,images/Customization/Charm/PL_049.png
+PL_050,Candy Spiders,A delicious gummy layer surrounds what may or not be an actual spider.,,General,Special Event,images/Customization/Charm/PL_050.png
+PL_051,Bloodpoint Gummies,Do they taste like cherry? Or do they just taste like blood? Only one way to find out. Design inspired by <b>Maomi</b>.,,General,Very Rare,images/Customization/Charm/PL_051.png
+PL_052,Have You Seen This Horse,"Maurice is missing, but in his place, a milk carton with a picture of Maurice mysteriously appeared. Design inspired by <b>PotatoGun13</b>.",,General,Very Rare,images/Customization/Charm/PL_052.png
+PL_053,Warrior Puppers,A bright light who will always have a place fighting alongside friends in The Fog.,,General,Uncommon,images/Customization/Charm/PL_053.png
+PL_054,Silk Omamori,"It’s difficult to find something that provides protection in The Entity’s Realm, but it’s worth a shot.",,General,Rare,images/Customization/Charm/PL_054.png
+QU_001,Dwelf Figurine,The only toy that won't mind being forgotten in the locker.,Deck the Trials,Survivor,Special Event,images/Customization/Charms/QU_001.png
+QU_002,"Trickster, New In Box",A collector piece for his most obsessed fans. Look out for sharp packaging.,Deck the Trials,Killer,Special Event,images/Customization/Charms/QU_002.png
+QU_003,Gingerbrat,It will make you regret that sweet tooth.,,General,Artifact,images/Customization/Charms/QU_003.png
+QU_004,A Friendly Face,A reminder of the good times.,Deck the Trials,General,Special Event,images/Customization/Charms/QU_004.png
+QU_006,Dog House,A cozy place to hide during the bloodshed. Not designed for Survivors.,Cats & Dogs,General,Rare,images/Customization/Charms/QU_006.png
+QU_007,Toy Mouse,An excellent toy to play with before the killing begins.,Cats & Dogs,General,Rare,images/Customization/Charms/QU_007.png
+QU_008,Raven Heart,"A heart, full of ominous and unforgettable memories.",,General,Rare,images/Customization/Charms/QU_008.png
+QU_009,Home Sweet Home,Going inside wasn’t such a good idea after all.,,General,Very Rare,images/Customization/Charms/QU_009.png
+QU_010,Infernal Box,"An ancient, damaged chest containing unknown evil.",Greek Legends,General,Very Rare,images/Customization/Charms/QU_010.png
+QU_011,Maurice’s stocking,Hay and deep-fried fingers for the Clown’s favorite horse.,Deck the Trials,General,Special Event,images/Customization/Charms/QU_011.png
+QU_012,One Million Souls,Gives a new meaning to doomscrolling.,,General,Rare,images/Customization/Charms/QU_012.png
+RO_001,Scroll of Toscano,Vittorio's writings about ancient societies and obscure guardians of knowledge.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/RO_001.png
+RO_002,Duke of Portoscuro,A medallion engraved with a portrait of Vittorio's uncle.,Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/RO_002.png
+RO_003,Howling Fire,"Vittorio's village, burnt to the ground.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/RO_003.png
+RO_004,Vittorio Figurine,A curious man driven to learn the secrets of The Entity’s Realm.,Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/RO_004.png
+RO_005,Porcelain Vase,"Hard to make, easy to break.",Survivor Memorabilia,Survivor,Common,images/Customization/Charms/RO_005.png
+RO_006,Lucky Coins,Coins bound together for good luck.,Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/RO_006.png
+RO_007,Imperial Guardian,They are known to protect from harmful spirits and people.,Of Blood and Rust,Survivor,Rare,images/Customization/Charms/RO_007.png
+RO_008,Trio of Agony,"Three weapons, one goal.",Killer Memorabilia,Killer,Common,images/Customization/Charms/RO_008.png
+RO_009,The Empty Flagon Inn,Closed for renovations.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/RO_009.png
+RO_010,Lethal Cocktail,The warm embrace of a mother’s love.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/RO_010.png
+RO_011,Spiked Locker,There’s no getting out of this locker once you’re in.,Killer Memorabilia,Killer,Very Rare,images/Customization/Charms/RO_011.png
+RO_012,Childhood Memory,"Anna still holds it in her arms sometimes at night, while humming her mother’s lullaby.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/RO_012.png
+RO_013,Wanted: Beast Woman,It says on the paper that her favorite prey is... Humans.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/RO_013.png
+RO_014,Elk Antlers,"She kept the antlers among her possessions, a reminder of her past.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/RO_014.png
+RO_015,A Dreadful Deal,The contract Vittorio signed would end up his worst nightmare.,,General,Common,images/Customization/Charms/RO_015.png
+RO_016,Armored Snow,"Well-protected, but weak to fire.",,General,Rare,images/Customization/Charms/RO_016.png
+RO_017,Broken Mill,Long past its days of turning grist into something useful.,,General,Rare,images/Customization/Charms/RO_017.png
+RO_018,Floating Bastion,"An impossible, frozen castle, floating above a winter sky.",,General,Ultra Rare,images/Customization/Charms/RO_018.png
+RO_019,MacMillan Estate Portal,A one-way ticket to the old mine.,,Survivor,Common,images/Customization/Charms/RO_019.png
+RO_020,Rancid Abattoir Portal,A one-way ticket to a slaughterhouse.,,Survivor,Common,images/Customization/Charms/RO_020.png
+RO_021,The Pale Rose Portal,A one-way ticket to a foul marsh.,,Survivor,Common,images/Customization/Charms/RO_021.png
+RO_022,Temple of Purgation Portal,A one-way ticket to a place of sacrifice.,,Survivor,Common,images/Customization/Charms/RO_022.png
+RO_023,Blood Lodge Portal,A one-way ticket to a twisted cabin.,,Survivor,Uncommon,images/Customization/Charms/RO_023.png
+RO_024,Mark of the Carnifex,The Carnifex would destroy everything in his path.,,Killer,Common,images/Customization/Charms/RO_024.png
+RO_025,Mark of the Assassin,Nobody could escape the Assassin’s quick pace.,,Killer,Common,images/Customization/Charms/RO_025.png
+RO_026,Mark of the Jailer,"The Jailer was a tireless pursuer, exhausting his prey.",,Killer,Common,images/Customization/Charms/RO_026.png
+RO_027,Guard Company Crest,A crest that struck fear in even the bravest opponents.,,Killer,Common,images/Customization/Charms/RO_027.png
+RO_028,Knight’s Standard,A filthy flag drenched with innocent blood.,,General,Uncommon,images/Customization/Charms/RO_028.png
+RO_029,Forgotten Shield,An old shield left on a forgotten battlefield.,,General,Uncommon,images/Customization/Charms/RO_029.png
+RO_030,Rising Shield,An ancient mechanism in the shield began to take shape.,,General,Rare,images/Customization/Charms/RO_030.png
+RO_031,Dragon Shield,"A mighty dragon appeared on the surface, gripping the shield’s edge.",,General,Very Rare,images/Customization/Charms/RO_031.png
+RO_032,Immortal Shield,"With its majestic wings expanding, the dragon and the shield became one.",,General,Ultra Rare,images/Customization/Charms/RO_032.png
+RO_033,Lunar Rabbit,"Vigilant and quick-witted, the rabbit knows how to adapt to every situation.",,General,Special Event,images/Customization/Charms/RO_033.png
+RO_034,Quiet Rabbit,A golden statuette that attracts luck and mercy.,,General,Special Event,images/Customization/Charms/RO_034.png
+RO_035,Trickster Keychain,For those who survived the trial of love.,Hooked on You Collection,General,Uncommon,images/Customization/Charms/RO_035.png
+RW_001,INNER EYE,A mysterious frequency awakens the inner eye of those who seek the truth.,Awakening,General,Uncommon,images/Customization/Charms/RW_001.png
+RW_002,PROFOUND INSIGHT,"The more you see, the more you learn.",Awakening,General,Rare,images/Customization/Charms/RW_002.png
+RW_003,ETHEREAL VISION,A sharper focus for those who go deeper than most.,Awakening,General,Very Rare,images/Customization/Charms/RW_003.png
+RW_004,AURIC SIGHT,Opening the gates of awareness provides perception that goes beyond the ordinary.,Awakening,General,Ultra Rare,images/Customization/Charms/RW_004.png
+RW_005,PRO-TECHNICIAN,Nothing beats a technician who performs the most demanding Skill Checks during stressful repairs.,,Survivor,Common,images/Customization/Charms/RW_005.png
+RW_006,NEON ARCADE,A lively arcade as a symbol for what life is truly about.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/RW_006.png
+RW_007,PRO-EMPATHY,An acute awareness that reveals those in pain.,,Survivor,Common,images/Customization/Charms/RW_007.png
+RW_008,FICUS ELASTICA PLANT,The first house plant Claudette got for her dorm after leaving Montréal.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/RW_008.png
+RW_009,Claudette Morel Figurine,"An expert botanist, Claudette Morel was a brilliant science student with a prolific future—that is until she took a stroll that changed her life forever.",Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/RW_009.png
+RW_010,TRAPPER HEADSTONE,A paleolithic slab of stone bearing the effigy of one serving The Entity.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/RW_010.png
+RW_011,HEAVY-DUTY BEAR TRAP,The perfect tool to ensnare all kinds of prey.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/RW_011.png
+RW_012,SADISTIC PUPPET,"A shadow creeping up the wall, an eerie presence lurking. Few know what this sadistic plaything is up to next.",Horrible Dolls,Killer,Very Rare,images/Customization/Charms/RW_012.png
+RW_014,JACK-O'-LANTERN,A sadistic grin for a night of trick-or-terror.,Hallowed Catalyst,General,Uncommon,images/Customization/Charms/RW_014.png
+RW_015,MACMILLAN MINING CORP.,The corporation that mined both minerals and human lives.,Realm Memorabilia,General,Uncommon,images/Customization/Charms/RW_015.png
+RW_016,BENEVOLENT CREST,The crest of those brave enough to venture through the black Fog.,,Survivor,Common,images/Customization/Charms/RW_016.png
+RW_017,BRAND NEW PART,A challenging mechanical part that rewards the bold and punishes the reckless.,Realm Memorabilia,General,Rare,images/Customization/Charms/RW_017.png
+RW_018,PRO-NO-ONE-ESCAPES-DEATH,Hope can be the deadliest trap. Strike when they believe the worst is behind them. They'll be ripe for the taking.,,Killer,Uncommon,images/Customization/Charms/RW_018.png
+RW_019,DANGER AHEAD,"There are many hidden tunnels, caution signs, and blocked exits on the MacMillan estate. Everyone suspected the mine was used for something else…",Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/RW_019.png
+RW_020,CHASER CREST,"No one can escape the clutches of a skilled, bloodthirsty hunter. No matter the chase, no matter the prey, death is the result.",,Killer,Uncommon,images/Customization/Charms/RW_020.png
+RW_021,KILLER STONE,A badge that signals a profound loyalty to The Entity. There is no greater thrill than to fuel what urges to kill.,,Killer,Common,images/Customization/Charms/RW_021.png
+RW_022,NURSE'S WOODEN HORSE,"A catatonic patient used to play with this horse, until his nurse suffocated him with his toy.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/RW_022.png
+RW_023,PUSTULA FLOWER,"A rare flower secreting a thick, pungent nectar during the “Hallowed Blight,” according to Vigo's journal.",Hallowed Catalyst,General,Rare,images/Customization/Charms/RW_023.png
+RW_024,NECTAR VIAL,"A glass vial filled with nectar, which can be distilled into a putrid serum that holds unknown properties.",Hallowed Catalyst,General,Ultra Rare,images/Customization/Charms/RW_024.png
+RW_025,MOUSE TRAPPER,"Setting up traps around the mine was easy. He'd watch rodents suffer, squirming while waiting for the inevitable. Suddenly, he had all the power in the world.",Budding Talent,Killer,Common,images/Customization/Charms/RW_025.png
+RW_026,SQUIRREL TRAPPER,He ventured outside for a new challenge. Each day he'd practice how to patrol areas in the woods to catch more challenging prey.,Budding Talent,Killer,Common,images/Customization/Charms/RW_026.png
+RW_027,WOLF TRAPPER,Nothing is more fulfilling than to hunt a pack of opponents. This he learned early on while hunting with his father.,Budding Talent,Killer,Common,images/Customization/Charms/RW_027.png
+RW_028,BEAR TRAPPER,"Hunting bears was his next move. They offered a real challenge, being stronger and bolder. He designed a special set of steel-jaw traps for the occasion.",Budding Talent,Killer,Common,images/Customization/Charms/RW_028.png
+RW_029,SADISTIC TRAPPER,No limits. Everything was fair game now. Even humans... Especially humans...,Budding Talent,Killer,Uncommon,images/Customization/Charms/RW_029.png
+RW_030,INTRODUCTION TO BOTANY,She found the branch of Biology that spoke to her soul.,Budding Talent,Survivor,Common,images/Customization/Charms/RW_030.png
+RW_031,HERBALISM,She discovered the nature of plants and their medicinal properties.,Budding Talent,Survivor,Common,images/Customization/Charms/RW_031.png
+RW_032,PLANT IDENTIFICATION,"She studied the taxonomic diversity of plants, training her eye to recognize each kind.",Budding Talent,Survivor,Common,images/Customization/Charms/RW_032.png
+RW_033,PLANT BIOCHEMISTRY,She began experimenting with plants to produce an array of chemical substances.,Budding Talent,Survivor,Common,images/Customization/Charms/RW_033.png
+RW_034,EXPERT BOTANIST,"Her in-depth understanding of each species' uniqueness inspired her techniques that targeted their differences. The specimen in her care always grew faster, stronger, and healthier.",Budding Talent,Survivor,Uncommon,images/Customization/Charms/RW_034.png
+S01_PCharm001,Iridescent Bond Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S01_PCharm001.png
+S01_PCharm002,Iridescent Prove Thyself Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S01_PCharm002.png
+S01_PCharm003,Iridescent Leader Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S01_PCharm003.png
+S02_PCharm001,Iridescent Quick & Quiet Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S02_PCharm001.png
+S02_PCharm002,Iridescent Sprint Burst Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S02_PCharm002.png
+S02_PCharm003,Iridescent Adrenaline Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S02_PCharm003.png
+S03_PCharm001,Iridescent Empathy Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S03_PCharm001.png
+S03_PCharm002,Iridescent Botany Knowledge Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S03_PCharm002.png
+S03_PCharm003,Iridescent Self-Care Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S03_PCharm003.png
+S04_PCharm001,Iridescent Iron Will Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S04_PCharm001.png
+S04_PCharm002,Iridescent Calm Spirit Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S04_PCharm002.png
+S04_PCharm003,Iridescent Saboteur Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S04_PCharm003.png
+S05_PCharm001,Iridescent Balanced Landing Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S05_PCharm001.png
+S05_PCharm002,Iridescent Urban Evasion Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S05_PCharm002.png
+S05_PCharm003,Iridescent Streetwise Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S05_PCharm003.png
+S06_PCharm001,Iridescent Sole Survivor Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S06_PCharm001.png
+S06_PCharm002,Iridescent Object of Obsession Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S06_PCharm002.png
+S06_PCharm003,Iridescent Decisive Strike Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S06_PCharm003.png
+S07_PCharm001,Iridescent Open-Handed Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S07_PCharm001.png
+S07_PCharm002,Iridescent Up the Ante Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S07_PCharm002.png
+S07_PCharm003,Iridescent Ace in the Hole Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S07_PCharm003.png
+S08_PCharm001,Iridescent Left Behind Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S08_PCharm001.png
+S08_PCharm002,Iridescent Borrowed Time Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S08_PCharm002.png
+S08_PCharm003,Iridescent Unbreakable Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S08_PCharm003.png
+S09_PCharm001,Iridescent Technician Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S09_PCharm001.png
+S09_PCharm002,Iridescent Lithe Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S09_PCharm002.png
+S09_PCharm003,Iridescent Alert Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S09_PCharm003.png
+S10_PCharm001,Iridescent We're Gonna Live Forever Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S10_PCharm001.png
+S10_PCharm002,Iridescent Dead Hard Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S10_PCharm002.png
+S10_PCharm003,Iridescent No Mither Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S10_PCharm003.png
+S11_PCharm001,Iridescent Dance With Me Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S11_PCharm001.png
+S11_PCharm002,Iridescent Windows of Opportunity Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S11_PCharm002.png
+S11_PCharm003,Iridescent Boil Over Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S11_PCharm003.png
+S12_PCharm001,Iridescent Wake Up! Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S12_PCharm001.png
+S12_PCharm002,Iridescent Pharmacy Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S12_PCharm002.png
+S12_PCharm003,Iridescent Vigil Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S12_PCharm003.png
+S13_PCharm001,Iridescent Tenacity Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S13_PCharm001.png
+S13_PCharm002,Iridescent Detective's Hunch Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S13_PCharm002.png
+S13_PCharm003,Iridescent Stake Out Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S13_PCharm003.png
+S14_PCharm001,Iridescent Diversion Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S14_PCharm001.png
+S14_PCharm002,Iridescent Deliverance Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S14_PCharm002.png
+S14_PCharm003,Iridescent Autodidact Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S14_PCharm003.png
+S15_PCharm001,Iridescent Breakdown Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S15_PCharm001.png
+S15_PCharm002,Iridescent Aftercare Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S15_PCharm002.png
+S15_PCharm003,Iridescent Distortion Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S15_PCharm003.png
+S16_PCharm001,Iridescent Solidarity Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S16_PCharm001.png
+S16_PCharm002,Iridescent Poised Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S16_PCharm002.png
+S16_PCharm003,Iridescent Head On Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S16_PCharm003.png
+S17_PCharm001,Iridescent Flip-Flop Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S17_PCharm001.png
+S17_PCharm002,Iridescent Buckle Up Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S17_PCharm002.png
+S17_PCharm003,Iridescent Mettle of Man Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S17_PCharm003.png
+S18_PCharm001,Iridescent Situational Awareness Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S18_PCharm001.png
+S18_PCharm002,Iridescent Self-Aware Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S18_PCharm002.png
+S18_PCharm003,Iridescent Inner Healing Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S18_PCharm003.png
+S19_PCharm001,Iridescent Guardian Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S19_PCharm001.png
+S19_PCharm002,Iridescent Kinship Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S19_PCharm002.png
+S19_PCharm003,Iridescent Renewal Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S19_PCharm003.png
+S20_PCharm001,Iridescent Lucky Break Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S20_PCharm001.png
+S20_PCharm002,Iridescent Any Means Necessary Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S20_PCharm002.png
+S20_PCharm003,Iridescent Breakout Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S20_PCharm003.png
+S21_PCharm001,Iridescent Off the Record Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S21_PCharm001.png
+S21_PCharm002,Iridescent Red Herring Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S21_PCharm002.png
+S21_PCharm003,Iridescent For the People Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S21_PCharm003.png
+S22_PCharm001,Iridescent Soul Guard Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S22_PCharm001.png
+S22_PCharm002,Iridescent Blood Pact Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S22_PCharm002.png
+S22_PCharm003,Iridescent Repressed Alliance Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S22_PCharm003.png
+S23_PCharm001,Iridescent Visionary Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S23_PCharm001.png
+S23_PCharm002,Iridescent Desperate Measures Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S23_PCharm002.png
+S23_PCharm003,Iridescent Built to Last Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S23_PCharm003.png
+S24_PCharm001,Iridescent Appraisal Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S24_PCharm001.png
+S24_PCharm002,Iridescent Deception Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S24_PCharm002.png
+S24_PCharm003,Iridescent Power Struggle Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S24_PCharm003.png
+S25_PCharm001,Iridescent Fast Track Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S25_PCharm001.png
+S25_PCharm002,Iridescent Smash Hit Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S25_PCharm002.png
+S25_PCharm003,Iridescent Self-Preservation Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S25_PCharm003.png
+S26_PCharm001,Iridescent Counterforce Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S26_PCharm001.png
+S26_PCharm002,Iridescent Resurgence Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S26_PCharm002.png
+S26_PCharm003,Iridescent Blast Mine Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S26_PCharm003.png
+S27_PCharm001,Iridescent Bite the Bullet Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S27_PCharm001.png
+S27_PCharm002,Iridescent Flashbang Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S27_PCharm002.png
+S27_PCharm003,Iridescent Rookie Spirit Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S27_PCharm003.png
+S28_PCharm001,Iridescent Clairvoyance Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S28_PCharm001.png
+S28_PCharm002,Iridescent Boon: Circle of Healing Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S28_PCharm002.png
+S28_PCharm003,Iridescent Boon: Shadow Step Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S28_PCharm003.png
+S29_PCharm001,Iridescent Overcome Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S29_PCharm001.png
+S29_PCharm002,Iridescent Corrective Action Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S29_PCharm002.png
+S29_PCharm003,Iridescent Boon: Exponential Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S29_PCharm003.png
+S30_PCharm001,Iridescent Parental Guidance Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S30_PCharm001.png
+S30_PCharm002,Iridescent Empathic Connection Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S30_PCharm002.png
+S30_PCharm003,Iridescent Boon: Dark Theory Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S30_PCharm003.png
+S31_PCharm001,Iridescent Inner Focus Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S31_PCharm001.png
+S31_PCharm002,Iridescent Residual Manifest Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S31_PCharm002.png
+S31_PCharm003,Iridescent Overzealous Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S31_PCharm003.png
+S32_PCharm001,Iridescent Wiretap Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S32_PCharm001.png
+S32_PCharm002,Iridescent Reactive Healing Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S32_PCharm002.png
+S32_PCharm003,Iridescent Low Profile Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S32_PCharm003.png
+S33_PCharm001,Iridescent Better Than New Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S33_PCharm001.png
+S33_PCharm002,Iridescent Reassurance Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S33_PCharm002.png
+S33_PCharm003,Iridescent Hyperfocus Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S33_PCharm003.png
+S34_PCharm001,Iridescent Potential Energy Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S34_PCharm001.png
+S34_PCharm002,Iridescent Fogwise Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S34_PCharm002.png
+S34_PCharm003,Iridescent Quick Gambit Charm,A keepsake gained upon mastery of a particular skill.,,Survivor,Uncommon,images/Customization/PerkCharms/S34_PCharm003.png
+TO_001,Bronze Primus Coin,An item originating from Terra Primus and manifested by the Rift. Something about the structure depicted on it feels powerful and imposing.,Reckoning,General,Uncommon,images/Customization/Charms/TO_001.png
+TO_002,Silver Primus Coin,An item originating from Terra Primus and manifested by the Rift. The third eye seems to imply deep-seeded knowledge or perhaps a psychic connection.,Reckoning,General,Rare,images/Customization/Charms/TO_002.png
+TO_003,Gold Primus Coin,An item originating from Terra Primus and manifested by the Rift. There is something reassuring about the golden scarab upon it.,Reckoning,General,Very Rare,images/Customization/Charms/TO_003.png
+TO_004,Iridescent Primus Coin,An item originating from Terra Primus and manifested by the Rift. The flower radiates with luminous light.,Reckoning,General,Ultra Rare,images/Customization/Charms/TO_004.png
+TO_005,Winter Flake,"A symbol of winter, cold to the touch.",The Chilling Season,Survivor,Uncommon,images/Customization/Charms/TO_005.png
+TO_006,Brass Slugger,"David enjoyed a good ol' fashioned dust-up, but when things got out of hand, the brass came out.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/TO_006.png
+TO_007,Livvy Award,And the winner for outstanding information series is… Jane Romero!,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/TO_007.png
+TO_008,David King Figurine,"A short-tempered brawler, David enjoyed starting his day with a pint and a punch-up.",Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/TO_008.png
+TO_009,Holiday Tree,A tree of light for the long winter nights.,WINTER CHEER,General,Uncommon,images/Customization/Charms/TO_009.png
+TO_010,Kendo Trophy,A humble prize awarded after a string of exhausting battles.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/TO_010.png
+TO_011,Last Gasp,Something dark in her family's past suffocates the bloodline.,Horrible Dolls,Killer,Very Rare,images/Customization/Charms/TO_011.png
+TO_012,Lunar Rat,"A clever creature, one can't help but admire its ability to thrive in nearly any land.",Lunar New Year 2020,General,Special Event,images/Customization/Charms/TO_012.png
+TO_013,Longevity Blessing,Wishing longevity in a realm of terror and torture may be more akin to a curse.,Lunar New Year 2020,General,Special Event,images/Customization/Charms/TO_013.png
+TO_014,Blood Moon,So begins the cycle anew…,Lunar New Year 2020,General,Common,images/Customization/Charms/TO_014.png
+TO_015,Frosted Man,"Without a magic hat, the snowman is fortunate enough to not have a soul to be beaten, worn, and broken.",The Chilling Season,General,Common,images/Customization/Charms/TO_015.png
+TO_016,Cand-eye Cane,A unique solution for those who want more murder in their Christmas holidays.,The Chilling Season,General,Rare,images/Customization/Charms/TO_016.png
+TO_017,Clapperboard,"5, 4, 3… ""I'm Jane Romero, and that is it for us today. We'll leave you with Corral Harp and a cut off her new album.""",Survivor Memorabilia,Survivor,Common,images/Customization/Charms/TO_017.png
+TO_018,Omamori Amulet,"A charm for warding off evil, Kazan wore it when he left home to fulfill his destiny.",Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/TO_018.png
+TO_019,Gore Flake,There's something striking about how blood contrasts against a snowy white sheet.,The Chilling Season,Killer,Uncommon,images/Customization/Charms/TO_019.png
+TO_020,Adrenal Glands,The Doctor rejected notions that his job was simple torture. This was science.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/TO_020.png
+TO_021,Lunar Lantern,A light to guide your way into the new lunar cycle.,Lunar New Year 2020,General,Ultra Rare,images/Customization/Charms/TO_021.png
+TO_022,Bokjumeoni,A lucky silk bag that carries good fortune.,Lunar New Year 2020,General,Rare,images/Customization/Charms/TO_022.png
+TO_023,Keshitsubo Bonsai,"There may be potential, but it's overgrown with doubt.",Adapt & Overcome,Killer,Common,images/Customization/Charms/TO_023.png
+TO_024,Shito Bonsai,"A watchful eye can see growth, slight as it may be.",Adapt & Overcome,Killer,Common,images/Customization/Charms/TO_024.png
+TO_025,Mame Bonsai,The sprigs press forward with quiet confidence.,Adapt & Overcome,Killer,Common,images/Customization/Charms/TO_025.png
+TO_026,Shohin Bonsai,The branches expand upon the sturdy base.,Adapt & Overcome,Killer,Common,images/Customization/Charms/TO_026.png
+TO_027,Komono Bonsai,"The roots tear through the dirt, strangling all they encounter.",Adapt & Overcome,Killer,Uncommon,images/Customization/Charms/TO_027.png
+TO_028,Sleeping Lion,"A powerful beast, spoiled on arrogance.",Adapt & Overcome,Survivor,Common,images/Customization/Charms/TO_028.png
+TO_029,Waking Lion,"A powerful beast, relegated to the barren plains.",Adapt & Overcome,Survivor,Common,images/Customization/Charms/TO_029.png
+TO_030,Alert Lion,"A powerful beast, saved from extinction.",Adapt & Overcome,Survivor,Common,images/Customization/Charms/TO_030.png
+TO_031,Roaring Lion,"A powerful beast, savage and bloody.",Adapt & Overcome,Survivor,Common,images/Customization/Charms/TO_031.png
+TO_032,Raging Lion,"A powerful beast, loyal and respected.",Adapt & Overcome,Survivor,Uncommon,images/Customization/Charms/TO_032.png
+TO_033,Winter Tree,Reminder of a time when the only thing hanging on hooks were Christmas ornaments.,The Chilling Season,Survivor,Uncommon,images/Customization/Charms/TO_033.png
+UN_Charm003,Fog Whisperers,"Artfully crafted from marble and jade, and awarded to those who lead a path through this realm's roiling mists.",,General,Artifact,images/Customization/Charms/UN_Charm003.png
+UN_Charm004,Scribe of The Entity,You are one of the few who can help to translate The Entity's arcane tongue into something mortals can understand. Take heed not to absorb too much - that way madness lies!,,General,Artifact,images/Customization/Charms/UN_Charm004.png
+UN_Charm005,Ban Hammer,You are one of the few who keeps the campfire safe. This precious charm represents the hammer of justice: wield it well.,,General,Artifact,images/Customization/Charms/UN_Charm005.png
+VI_001,Iron Entity Abstract,A conceptual model of The Entity. The light rusting may be intentional.,Escalation,General,Uncommon,images/Customization/Charms/VI_001.png
+VI_002,Bronze Entity Abstract,"A conceptual model of The Entity. Though the metal remains strong, it rings hollow within.",Escalation,General,Rare,images/Customization/Charms/VI_002.png
+VI_003,Gold Entity Abstract,"A conceptual model of The Entity. Though lacking magnetism, the carving attracts itself to certain people.",Escalation,General,Very Rare,images/Customization/Charms/VI_003.png
+VI_004,Astral Entity Abstract,"A conceptual model of The Entity. Though beautiful, it evokes anxiety in those who hold it.",Escalation,General,Ultra Rare,images/Customization/Charms/VI_004.png
+VI_005,Peak 22 Keychain,"Memorabilia from an ambitious, yet doomed-to-fail, social media company.",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/VI_005.png
+VI_006,Hawaiian Slice,"A highly controversial statement that yes, pineapple belongs on pizza.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/VI_006.png
+VI_007,Kate's Guitar,"An acoustic guitar, perfectly tuned and engraved with flowers.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/VI_007.png
+VI_008,Kate Denson Figurine,"A hopeful songbird, Kate lifted others' spirits when all seemed lost.",Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/VI_008.png
+VI_009,Music of Pearl,"A music note formed from mother of pearl, glittering with luminosity.",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/VI_009.png
+VI_010,Horse Head,"A grotesque trophy, taken from the remains of a cavalry unit.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/VI_010.png
+VI_011,Bunny Hood Doll,"A worn-down doll, soiled, reeking, and cherished above all.",Killer Memorabilia,Killer,Very Rare,images/Customization/Charms/VI_011.png
+VI_012,Tree of Life,"A symbol of life, though from another perspective, it's the vessel that ferries one to death.",Mythical Relics,General,Uncommon,images/Customization/Charms/VI_012.png
+VI_013,Ouroboros,"And so, as it ends, it begins.",Mythical Relics,General,Common,images/Customization/Charms/VI_013.png
+VI_014,Triple Moon,"A symbol of birth, life, and death. The finality of the waning moon seems incongruous in The Entity's realm.",Mythical Relics,General,Common,images/Customization/Charms/VI_014.png
+VI_015,Flower of Life,A key to unlocking sacred wisdom or a trifling bauble,Mythical Relics,General,Common,images/Customization/Charms/VI_015.png
+VI_016,Peak 22 Thermos,Distributed to employees to boost morale in lieu of a bonus.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/VI_016.png
+VI_017,Simulation Terror,The critics agree: “Simulation Terror is a terror to read!”,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/VI_017.png
+VI_018,Rusted Horseshoe,The few who hold a remnant of hope and innocence believe it bestows luck.,Into the Unknown,Killer,Uncommon,images/Customization/Charms/VI_018.png
+VI_019,Killer Tunes,Every great murder has a soundtrack.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/VI_019.png
+VI_020,Screaming Speakers,There was a discordance to the damaged speakers that gave them a unique sound all to themselves.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/VI_020.png
+VI_021,Vaporius Hexahedron,A finely crafted container that stimulates a wisp of ever-changing Fog.,Into the Unknown,General,Ultra Rare,images/Customization/Charms/VI_021.png
+VI_022,Timekeeper,A relic that's incapable of measuring time in this realm.,Into the Unknown,General,Rare,images/Customization/Charms/VI_022.png
+VI_023,Forsaken Child,"The trinket of a child, alone, cold, and terrified.",Remarkable Journeys,Killer,Common,images/Customization/Charms/VI_023.png
+VI_024,Reclusive Scavenger,"The trinket of a teenager, searching for a morsel.",Remarkable Journeys,Killer,Common,images/Customization/Charms/VI_024.png
+VI_025,Clever Hunter,"The trinket of a woman, taking fate into her own hands.",Remarkable Journeys,Killer,Common,images/Customization/Charms/VI_025.png
+VI_026,Ruthless Predator,"The trinket of a killer, stalking those who approach her home.",Remarkable Journeys,Killer,Common,images/Customization/Charms/VI_026.png
+VI_027,Deadly Terror,"The trinket of a monster, asserting dominance over all in her forest.",Remarkable Journeys,Killer,Uncommon,images/Customization/Charms/VI_027.png
+VI_028,Child's Melody,"With quiet confidence, Kate picked up the guitar.",Remarkable Journeys,Survivor,Common,images/Customization/Charms/VI_028.png
+VI_029,Strummer's Melody,"Sometimes Kate's fingers missed a chord, but it didn't deter her.",Remarkable Journeys,Survivor,Common,images/Customization/Charms/VI_029.png
+VI_030,Singer's Melody,Kate's voice had a natural cadence that made people want to listen.,Remarkable Journeys,Survivor,Common,images/Customization/Charms/VI_030.png
+VI_031,Musician's Melody,"Kate combined the guitar with her voice, as if it was a single part of her.",Remarkable Journeys,Survivor,Common,images/Customization/Charms/VI_031.png
+VI_032,Songbird's Melody,"There was a spark of hope that Kate kept in her voice, wherever she went. It was of greater importance than she'd know.",Remarkable Journeys,Survivor,Uncommon,images/Customization/Charms/VI_032.png
+VI_033,Unlimited Entity-Wide,Hello? The mobile realm awaits your sacrifice.,Dropped Call,General,Rare,images/Customization/Charms/VI_033.png
+WA_001,Seal of Metatron,A symbolic amulet emanating a dark and ominous force.,Immemorial Talisman,General,Uncommon,images/Customization/Charms/WA_001.png
+WA_002,Vic Viper,A tribute to the white-and-blue star fighter tasked with saving the galaxy from an evil Bacterian Empire.,Gradius Memento,General,Very Rare,images/Customization/Charms/WA_002.png
+WA_003,Year 4 Cake,"A crumbling cake emanating a dark and ominous force. ""Happy anniversary! Here’s to four years of spilling blood together!""",4th Anniversary 3D Cake,General,Rare,images/Customization/Charms/WA_003.png
+WA_004,4th Anniversary,A tribute to celebrate the fourth year of Dead by Daylight.,4th Anniversary 2D Logo,General,Uncommon,images/Customization/Charms/WA_004.png
+XI_001,Enigmatic Glyph,An unusual glyph that hints at a mystery within.,Conviction,General,Uncommon,images/Customization/Charms/XI_001.png
+XI_002,Amplified Glyph,"An activated glyph, buzzing with a dangerous energy.",Conviction,General,Rare,images/Customization/Charms/XI_002.png
+XI_003,Stabilized Glyph,"A temporarily stable glyph, opening to something far beyond our understanding.",Conviction,General,Very Rare,images/Customization/Charms/XI_003.png
+XI_004,Chaotic Glyph,"A glyph overwhelmed with unstable energy, breaking under the weight of existence.",Conviction,General,Ultra Rare,images/Customization/Charms/XI_004.png
+XI_005,Lucky Chip,A keychain that Ace used as a card guard during one of his biggest Texas hold'em scores.,Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/XI_005.png
+XI_006,Stopped Stopwatch,It's a stopwatch that takes its name far too literally.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/XI_006.png
+XI_007,"Uh, Oh's Shot Glass","Uh, Oh's Pub & Grill is the place to be for off-beat and unusual Vegas bets.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/XI_007.png
+XI_008,Meg Thomas Figurine,"Fast out of the gates, Meg's sprint burst earned her a shiny gold medal.",Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/XI_008.png
+XI_009,Trey Aces,"If you ever need an ace up your sleeve, here's three.",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/XI_009.png
+XI_010,The Calamitous Bell,"Run while the bell tolls, run o soul forsaken.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/XI_010.png
+XI_011,Catalyst of Madness,"In the ashes, the embers burn red hot.",Horrible Dolls,Killer,Very Rare,images/Customization/Charms/XI_011.png
+XI_012,Sizzling Grill,A well-used grill smelling of blood and meat.,Summer Sizzle,General,Uncommon,images/Customization/Charms/XI_012.png
+XI_013,Yesterday's Sandals,"A melancholy image of sandals, worn during simpler, care-free days.",Summer Sizzle,General,Common,images/Customization/Charms/XI_013.png
+XI_014,Magnificent Conch,"An uninhabited shell like many others, yet spectacular nonetheless.",Summer Sizzle,General,Common,images/Customization/Charms/XI_014.png
+XI_015,Wormy Opener,And this is why you don't open cans of worms.,Summer Sizzle,General,Common,images/Customization/Charms/XI_015.png
+XI_016,Can of Worms,"General wisdom states that a can of worms should never be opened, yet here we are.",Summer Sizzle,General,Rare,images/Customization/Charms/XI_016.png
+XI_017,Marshmallow Branch,A stalk of wood vastly improved with the addition of high sugar treats.,Summer Sizzle,Survivor,Common,images/Customization/Charms/XI_017.png
+XI_018,Autohaven Wreckers,We'll wreck anything you bring in—no questions asked.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/XI_018.png
+XI_019,Blackened Catalyst,What appears as a benign symbol can hold the very power of death.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/XI_019.png
+XI_020,Death Wreck,"It's a wrecked car or, from another point of view, an affordable coffin made of reliable American steel.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/XI_020.png
+XI_021,Tiki Death Cup,A refreshing summer beverage that carries a terrible curse.,Summer Sizzle,General,Ultra Rare,images/Customization/Charms/XI_021.png
+XI_022,Grimy Shackles,"In these restraints her spirit broke, until all that remained was a terrible hunger.",Killer Memorabilia,Killer,Rare,images/Customization/Charms/XI_022.png
+XI_023,Playful Poltergeist,"For all the trauma that existed in the world, he was still a child with childish hopes.",Killer Memorabilia,Killer,Common,images/Customization/Charms/XI_023.png
+XI_024,Startled Poltergeist,"When the men came, he only knew to do one thing—hide.",Path of Discovery,Killer,Common,images/Customization/Charms/XI_024.png
+XI_025,Vengeful Poltergeist,He killed the men for what they did. He made them howl in pain.,Path of Discovery,Killer,Common,images/Customization/Charms/XI_025.png
+XI_026,Roaming Poltergeist,He wanted to believe that things in a new land could be better.,Path of Discovery,Killer,Common,images/Customization/Charms/XI_026.png
+XI_027,Wrathful Poltergeist,"Wrath overcame him, but even then he resisted—until something unknown, something unnatural, twisted him.",Path of Discovery,Killer,Uncommon,images/Customization/Charms/XI_027.png
+XI_028,Backstreet Champ,"She moved fast through the alleys, but how far could speed take her?",Path of Discovery,Survivor,Common,images/Customization/Charms/XI_028.png
+XI_029,Fledgling Champ,She had a lot to learn before the track meet and not a lot of time to learn it.,Path of Discovery,Survivor,Common,images/Customization/Charms/XI_029.png
+XI_030,School Champ,"She might just be the fastest in her school, but she'd have to prove it.",Path of Discovery,Survivor,Common,images/Customization/Charms/XI_030.png
+XI_031,Broken Champ,"She was so close to her goal, but an injury stopped her dead in her tracks.",Path of Discovery,Survivor,Common,images/Customization/Charms/XI_031.png
+XI_032,State Champ,She gritted her teeth through injury and persevered over all.,Path of Discovery,Survivor,Uncommon,images/Customization/Charms/XI_032.png
+ZA_001,Pustula Husk,"The withered seed of a pustula flower, slowly turning to dust.",Unleashed,General,Uncommon,images/Customization/Charms/ZA_001.png
+ZA_002,Pustula Seedling,A sprout paradoxically enlivened by its death.,Unleashed,General,Rare,images/Customization/Charms/ZA_002.png
+ZA_003,Pustula Bud,A tight pustula bulb showing signs of the unusual orange liquid within.,Unleashed,General,Very Rare,images/Customization/Charms/ZA_003.png
+ZA_004,Pustula Flower,"A vibrant flower, weeping with a mysterious substance, signaling the season of a new blight.",Unleashed,General,Ultra Rare,images/Customization/Charms/ZA_004.png
+ZA_005,Adam’s Passport,"The document that brought Adam to Japan and, in turn, The Entity’s realm.",Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/ZA_005.png
+ZA_006,Nea's Spray Paint,The primary weapon in Nea’s arsenal against the establishment.,Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/ZA_006.png
+ZA_007,Ol’ Reliable,"Adam’s unreliable scooter with an ironic name. Though he had other names for it, they’re better left unsaid.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/ZA_007.png
+ZA_008,Nea Karlsson Figurine,Nea had a message to send and she wrote it in paint.,Vinyl Dolls,Survivor,Very Rare,images/Customization/Charms/ZA_008.png
+ZA_009,Mashtyx Tag,Nea’s iconic tag that can still be seen along city streets.,Survivor Memorabilia,Survivor,Uncommon,images/Customization/Charms/ZA_009.png
+ZA_010,K9 Collar,The thin strap that’s hopefully enough to control a sheriff’s dog.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/ZA_010.png
+ZA_011,Rosie the Prize Hog,A prize-winning pig whose victory was celebrated with a good ol’ fashioned barbeque.,Killer Memorabilia,Killer,Very Rare,images/Customization/Charms/ZA_011.png
+ZA_012,Transistor Radio,An item cherished by The Observer for its quaint simplicity.,The Desolate Prisoner,General,Uncommon,images/Customization/Charms/ZA_012.png
+ZA_013,Protest Flyer,A flyer that rallied against the pollution of a local water supply.,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/ZA_013.png
+ZA_014,Finger Lickers,A fun alternative to corndogs that the kids are sure to love.,Killer Memorabilia,Killer,Common,images/Customization/Charms/ZA_014.png
+ZA_015,Solemn Reprieve,Aged whiskey that helped The Observer through the eternal nights.,The Desolate Prisoner,General,Common,images/Customization/Charms/ZA_015.png
+ZA_016,Stuffed Crow,"A crow that underwent the careful examination of The Observer, in an attempt to decipher the realm’s secrets.",The Desolate Prisoner,General,Rare,images/Customization/Charms/ZA_016.png
+ZA_017,Japanese Learning,A book that helped Adam stumble his way through conversations in Japan.,Survivor Memorabilia,Survivor,Common,images/Customization/Charms/ZA_017.png
+ZA_018,Coldwind Farm Keychain,A picturesque setting that glosses over the child imprisoned within.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/ZA_018.png
+ZA_019,Maurice the Great Mystic,A keychain that captures the likeness of The Clown’s deformed horse.,Killer Memorabilia,Killer,Uncommon,images/Customization/Charms/ZA_019.png
+ZA_020,Mangled Unicorn,A carnival prize with a gaping entry wound that bleeds stuffing.,Killer Memorabilia,Killer,Rare,images/Customization/Charms/ZA_020.png
+ZA_021,Dendrite Cluster,A sample of nerve tissue that reacts strangely to The Fog. A means to escape or a dead end?,The Desolate Prisoner,General,Ultra Rare,images/Customization/Charms/ZA_021.png
+ZA_022,Mayor’s Pride,"The mayor’s prized car, having recently undergone a custom paint job.",Survivor Memorabilia,Survivor,Rare,images/Customization/Charms/ZA_022.png
+ZA_023,Caged Maniac,"He may not have been born mad, but the confines of his home left him that way.",Freedom Fighter,Killer,Common,images/Customization/Charms/ZA_023.png
+ZA_024,Unshackled Maniac,"He expressed himself in violence, and from him death arose.",Freedom Fighter,Killer,Common,images/Customization/Charms/ZA_024.png
+ZA_025,Endangered Maniac,He wouldn’t allow himself to be confined again. He’d fight back.,Freedom Fighter,Killer,Common,images/Customization/Charms/ZA_025.png
+ZA_026,Fugitive Maniac,They couldn’t catch him. And if they did... he’d kill them.,Freedom Fighter,Killer,Common,images/Customization/Charms/ZA_026.png
+ZA_027,Liberated Maniac,"He fought for his freedom with blood. The nightmare was over, while for others it was just beginning.",Freedom Fighter,Killer,Uncommon,images/Customization/Charms/ZA_027.png
+ZA_028,Uncompromising Iconoclast,Nea was prepared to fight any injustice. There was no compromise.,Freedom Fighter,Survivor,Common,images/Customization/Charms/ZA_028.png
+ZA_029,Loyal Iconoclast,"When her friends rose up, she took to the streets with them.",Freedom Fighter,Survivor,Common,images/Customization/Charms/ZA_029.png
+ZA_030,Rebellious Iconoclast,She refused to follow the rules.,Freedom Fighter,Survivor,Common,images/Customization/Charms/ZA_030.png
+ZA_031,Organized Iconoclast,"Her spray paint was her weapon in the fight, her skateboard a means of escape.",Freedom Fighter,Survivor,Common,images/Customization/Charms/ZA_031.png
+ZA_032,Evacuating Iconoclast,The outcome was worse than she expected—she had to flee fast.,Freedom Fighter,Survivor,Uncommon,images/Customization/Charms/ZA_032.png
+ZA_033,Blighted Jack,A jack-o-lantern that became a test subject for blight serum.,Halloween,General,Rare,images/Customization/Charms/ZA_033.png
+ZA_034,Perk Treats,A bucket of candy perks. No one seems to have touched the This Is Not Happening candies.,Halloween,General,Uncommon,images/Customization/Charms/ZA_034.png
+ZA_035,Dwightcrow,The crows don’t seem afraid of this at all...,Halloween,Killer,Very Rare,images/Customization/Charms/ZA_035.png
+ZA_036,Trap-o-Lantern,A good mask makes the murderer.,Halloween,Survivor,Very Rare,images/Customization/Charms/ZA_036.png
