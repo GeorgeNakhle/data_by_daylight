@@ -10,10 +10,15 @@ def map():
 
     # Key, Value because url doesn't return array
     for key, value in response.items():
+        if value["dlc"] == None:
+            dlcID = None
+        else:
+            dlcID = value["dlc"].title()
+
         if value["image"] == None:
             continue
 
-        writer.writerow([key, value["dlc"], value["name"], value["realm"], value["description"], getImagePath(value["image"])])
+        writer.writerow([key, dlcID, value["name"], value["realm"], value["description"], getImagePath(value["image"])])
 
     file.close()
     successMessage("map.csv")

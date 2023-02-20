@@ -10,7 +10,7 @@ def dlc():
 
     # Key, Value because url doesn't return array
     for key, value in response.items():
-        writer.writerow([key, value["name"], value["description"], value["steamid"], value["time"]])
+        writer.writerow([key.title(), value["name"], value["description"], value["steamid"], value["time"]])
 
     file.close()
     successMessage("dlc.csv")

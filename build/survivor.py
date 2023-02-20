@@ -5,12 +5,27 @@ def survivor():
     writer = csv.writer(file)
     writer.writerow(["id", "dlcID", "name", "gender", "bio", "lore", "image"])
 
+    res = requests.get("https://dbd.tricky.lol/api/dlc")
+    response = json.loads(res.text)
+
+    currentDLCs = []
+    # Key, Value because url doesn't return array
+    for key, value in response.items():
+        currentDLCs.append(key)
+
+
     res = requests.get("https://dbd.tricky.lol/api/characters?role=survivor")
     response = json.loads(res.text)
 
     index = 0
     for i in response:
-        writer.writerow([index, i["dlc"], i["name"], gender[i["gender"]].value, i["bio"], i["story"], getImagePath(i["image"])])
+        # Sometimes survivor is added to API before their DLC is
+        if i["dlc"] not in currentDLCs:
+            dlcID = None
+        else:
+            dlcID = i["dlc"].title()
+
+        writer.writerow([index, dlcID, i["name"], gender[i["gender"]].value, i["bio"], i["story"], getImagePath(i["image"])])
         index += 1
 
     file.close()
