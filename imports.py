@@ -1,11 +1,10 @@
-#region IMPORTS
+#region MODULES
 
 import os
 import shutil
 import json
 import requests
 import csv
-import pandas
 from enum import Enum
 import sqlite3
 
@@ -74,19 +73,6 @@ class cosmeticType(Enum):
 #endregion
 
 #region FUNCTIONS
-
-def clearFolder(folder):
-    if folder == None:
-        return
-    for filename in os.listdir(folder):
-        file_path = os.path.join(folder, filename)
-        try:
-            if os.path.isfile(file_path) or os.path.islink(file_path):
-                os.unlink(file_path)
-            elif os.path.isdir(file_path):
-                shutil.rmtree(file_path)
-        except Exception as e:
-            print('Failed to delete %s. Reason: %s' % (file_path, e))
 
 def getImagePath(url):
     if url == None:

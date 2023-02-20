@@ -25,7 +25,6 @@ from sql.database import *
 
 #region [1] JSON to CSV files #############################################################################
 
-clearFolder("./source_data/")
 challenge()
 charm()
 cosmetic()
