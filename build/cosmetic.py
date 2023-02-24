@@ -10,6 +10,12 @@ def cosmetic():
 
     # Key, Value because url doesn't return array
     for key, value in response.items():
+        # Sometimes survivor/killer is added to API before their cosmetics are
+        if not os.path.isfile(getImagePath(value["image"])):
+            image = ""
+        else:
+            image = getImagePath(value["image"])
+
         # Gift code charms are in this endpoint, so skip them
         if value["category"] == "charm":
             continue
@@ -30,7 +36,7 @@ def cosmetic():
         else:
             collection = value["collection"].title()
 
-        writer.writerow([key, survivorID, killerID, value["outfit"], value["name"], value["description"], roleType, cosmeticType[value["category"]].value, collection, rarity[value["rarity"]].value, value["purchasable"], getImagePath(value["image"])])
+        writer.writerow([key, survivorID, killerID, value["outfit"], value["name"], value["description"], roleType, cosmeticType[value["category"]].value, collection, rarity[value["rarity"]].value, value["purchasable"], image])
 
     file.close()
     successMessage("cosmetic.csv")

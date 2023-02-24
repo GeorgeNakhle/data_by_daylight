@@ -10,6 +10,13 @@ def perk():
 
     # Key, Value because url doesn't return array
     for key, value in response.items():
+        # Sometimes survivor/killer is added to API before their perks are
+        if not os.path.isfile(getImagePath(value["image"])):
+            image = ""
+        else:
+            image = getImagePath(value["image"])
+
+
         if value["character"] == None:
             # General perk (any)
             survivorID = value["character"]
@@ -28,7 +35,7 @@ def perk():
         else:
             teachable = value["teachable"]
         
-        writer.writerow([key, survivorID, killerID, value["name"], role[value["role"]].value, value["description"], value["tunables"], teachable, getImagePath(value["image"])])
+        writer.writerow([key, survivorID, killerID, value["name"], role[value["role"]].value, value["description"], value["tunables"], teachable, image])
 
     file.close()
     successMessage("perk.csv")

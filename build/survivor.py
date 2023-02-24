@@ -19,13 +19,19 @@ def survivor():
 
     index = 0
     for i in response:
+        # Sometimes survivor is added to API before their image is
+        if not os.path.isfile(getImagePath(i["image"])):
+            image = ""
+        else:
+            image = getImagePath(i["image"])
+
         # Sometimes survivor is added to API before their DLC is
         if i["dlc"] not in currentDLCs:
             dlcID = None
         else:
             dlcID = i["dlc"].title()
 
-        writer.writerow([index, dlcID, i["name"], gender[i["gender"]].value, i["bio"], i["story"], getImagePath(i["image"])])
+        writer.writerow([index, dlcID, i["name"], gender[i["gender"]].value, i["bio"], i["story"], image])
         index += 1
 
     file.close()
