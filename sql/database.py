@@ -17,7 +17,7 @@ def database():
                 )""")
     with open("./source_data/tome.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["title"], i["type"], i["release"]) for i in dr]
+        to_db = [(i["id"] or None, i["title"] or None, i["type"] or None, i["release"] or None) for i in dr]
     c.executemany("INSERT INTO tome (id, title, type, release) VALUES (?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -35,7 +35,7 @@ def database():
                 )""")
     with open("./source_data/challenge.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["tomeID"], i["name"], i["level"], i["role"], i["objective"], i["reward"]) for i in dr]
+        to_db = [(i["tomeID"] or None, i["name"] or None, i["level"] or None, i["role"] or None, i["objective"] or None, i["reward"] or None) for i in dr]
     c.executemany("INSERT INTO challenge (tomeID, name, level, role, objective, reward) VALUES (?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -50,7 +50,7 @@ def database():
                 )""")
     with open("./source_data/vignette.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["tomeID"], i["title"], i["subtitle"]) for i in dr]
+        to_db = [(i["id"] or None, i["tomeID"] or None, i["title"] or None, i["subtitle"] or None) for i in dr]
     c.executemany("INSERT INTO vignette (id, tomeID, title, subtitle) VALUES (?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -65,7 +65,7 @@ def database():
                 )""")
     with open("./source_data/entry.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["title"], i["vignetteID"], i["text"]) for i in dr]
+        to_db = [(i["title"] or None, i["vignetteID"] or None, i["text"] or None) for i in dr]
     c.executemany("INSERT INTO entry (title, vignetteID, text) VALUES (?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -80,7 +80,7 @@ def database():
                 )""")
     with open("./source_data/rift.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["tier"], i["start"], i["end"]) for i in dr]
+        to_db = [(i["id"] or None, i["tier"] or None, i["start"] or None, i["end"] or None) for i in dr]
     c.executemany("INSERT INTO rift (id, tier, start, end) VALUES (?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -96,7 +96,7 @@ def database():
                 )""")
     with open("./source_data/level.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["riftID"], i["number"], i["type"], i["reward"]) for i in dr]
+        to_db = [(i["riftID"] or None, i["number"] or None, i["type"] or None, i["reward"] or None) for i in dr]
     c.executemany("INSERT INTO level (riftID, number, type, reward) VALUES (?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -112,7 +112,7 @@ def database():
                 )""")
     with open("./source_data/event.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["name"], i["type"], i["multiplier"], i["start"], i["end"]) for i in dr]
+        to_db = [(i["id"] or None, i["name"] or None, i["type"] or None, i["multiplier"] or None, i["start"] or None, i["end"] or None) for i in dr]
     c.executemany("INSERT INTO event (id, name, type, multiplier, start, end) VALUES (?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -130,7 +130,7 @@ def database():
                 )""")
     with open("./source_data/item.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["eventID"] or None, i["name"], i["description"], i["type"], i["rarity"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["eventID"] or None, i["name"] or None, i["description"] or None, i["type"] or None, i["rarity"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO item (id, eventID, name, description, type, rarity, image) VALUES (?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -146,7 +146,7 @@ def database():
                 )""")
     with open("./source_data/item_addon.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["name"], i["description"], i["type"], i["rarity"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["name"] or None, i["description"] or None, i["type"] or None, i["rarity"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO item_addon (id, name, description, type, rarity, image) VALUES (?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -161,7 +161,7 @@ def database():
                 )""")
     with open("./source_data/item_addon_item.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["addonID"], i["itemID"]) for i in dr]
+        to_db = [(i["addonID"] or None, i["itemID"] or None) for i in dr]
     c.executemany("INSERT INTO item_addon_item (addonID, itemID) VALUES (?, ?);", to_db)
     conn.commit()
     #endregion
@@ -178,7 +178,7 @@ def database():
                 )""")
     with open("./source_data/charm.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["name"], i["description"], i["collection"], i["role"], i["rarity"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["name"] or None, i["description"] or None, i["collection"] or None, i["role"] or None, i["rarity"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO charm (id, name, description, collection, role, rarity, image) VALUES (?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -193,7 +193,7 @@ def database():
                 )""")
     with open("./source_data/dlc.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["name"], i["description"], i["steamID"], i["release"]) for i in dr]
+        to_db = [(i["id"] or None, i["name"] or None, i["description"] or None, i["steamID"] or None, i["release"] or None) for i in dr]
     c.executemany("INSERT INTO dlc (id, name, description, steamID, release) VALUES (?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -211,7 +211,7 @@ def database():
                 )""")
     with open("./source_data/survivor.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["dlcID"] or None, i["name"], i["gender"], i["bio"], i["lore"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["dlcID"] or None, i["name"] or None, i["gender"] or None, i["bio"] or None, i["lore"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO survivor (id, dlcID, name, gender, bio, lore, image) VALUES (?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -225,7 +225,7 @@ def database():
                 )""")
     with open("./source_data/power.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["name"], i["description"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["name"] or None, i["description"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO power (id, name, description, image) VALUES (?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -242,7 +242,7 @@ def database():
                 )""")
     with open("./source_data/power_addon.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["powerID"] or None, i["name"], i["description"], i["rarity"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["powerID"] or None, i["name"] or None, i["description"] or None, i["rarity"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO power_addon (id, powerID, name, description, rarity, image) VALUES (?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -266,7 +266,7 @@ def database():
                 )""")
     with open("./source_data/killer.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["dlcID"] or None, i["powerID"] or None, i["name"], i["difficulty"], i["gender"], i["bio"], i["lore"], i["speedMS"], i["speedPercentage"], i["terrorRadius"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["dlcID"] or None, i["powerID"] or None, i["name"] or None, i["difficulty"] or None, i["gender"] or None, i["bio"] or None, i["lore"] or None, i["speedMS"] or None, i["speedPercentage"] or None, i["terrorRadius"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO killer (id, dlcID, powerID, name, difficulty, gender, bio, lore, speedMS, speedPercentage, terrorRadius, image) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -287,7 +287,7 @@ def database():
                 )""")
     with open("./source_data/perk.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["survivorID"] or None, i["killerID"] or None, i["name"], i["role"], i["description"], i["tunables"], i["teachable"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["survivorID"] or None, i["killerID"] or None, i["name"], i["role"] or None, i["description"] or None, i["tunables"] or None, i["teachable"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO perk (id, survivorID, killerID, name, role, description, tunables, teachable, image) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -310,7 +310,7 @@ def database():
                 )""")
     with open("./source_data/outfit.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["survivorID"] or None, i["killerID"] or None, i["name"], i["description"], i["role"], i["collection"], i["rarity"], i["purchasable"], i["discount"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["survivorID"] or None, i["killerID"] or None, i["name"] or None, i["description"] or None, i["role"] or None, i["collection"] or None, i["rarity"] or None, i["purchasable"] or None, i["discount"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO outfit (id, survivorID, killerID, name, description, role, collection, rarity, purchasable, discount, image) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -335,7 +335,7 @@ def database():
                 )""")
     with open("./source_data/cosmetic.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["survivorID"] or None, i["killerID"] or None, i["outfitID"] or None, i["name"], i["description"], i["role"], i["type"], i["collection"], i["rarity"], i["purchasable"], i["image"] ) for i in dr]
+        to_db = [(i["id"] or None, i["survivorID"] or None, i["killerID"] or None, i["outfitID"] or None, i["name"] or None, i["description"] or None, i["role"] or None, i["type"] or None, i["collection"] or None, i["rarity"] or None, i["purchasable"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO cosmetic (id, survivorID, killerID, outfitID, name, description, role, type, collection, rarity, purchasable, image) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -352,7 +352,7 @@ def database():
                 )""")
     with open("./source_data/map.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["dlcID"] or None, i["name"], i["realm"], i["description"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["dlcID"] or None, i["name"] or None, i["realm"] or None, i["description"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO map (id, dlcID, name, realm, description, image) VALUES (?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -370,7 +370,7 @@ def database():
                 )""")
     with open("./source_data/offering.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["id"], i["name"], i["role"], i["rarity"], i["description"], i["tags"], i["retired"], i["image"]) for i in dr]
+        to_db = [(i["id"] or None, i["name"] or None, i["role"] or None, i["rarity"] or None, i["description"] or None, i["tags"] or None, i["retired"] or None, i["image"] or None) for i in dr]
     c.executemany("INSERT INTO offering (id, name, role, rarity, description, tags, retired, image) VALUES (?, ?, ?, ?, ?, ?, ?, ?);", to_db)
     conn.commit()
     #endregion
@@ -383,7 +383,7 @@ def database():
                 )""")
     with open("./source_data/metadata.csv", "r", encoding="utf-8") as fin:
         dr = csv.DictReader(fin)
-        to_db = [(i["endpoint"], i["version"], i["lastupdate"]) for i in dr]
+        to_db = [(i["endpoint"] or None, i["version"] or None, i["lastupdate"] or None) for i in dr]
     c.executemany("INSERT INTO metadata (endpoint, version, lastupdate) VALUES (?, ?, ?);", to_db)
     conn.commit()
     #endregion
