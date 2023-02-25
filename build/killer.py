@@ -13,6 +13,14 @@ def killer():
     for key, value in response.items():
         currentDLCs.append(key)
 
+    res = requests.get("https://dbd.tricky.lol/api/items?type=power")
+    response = json.loads(res.text)
+
+    currentPowers = []
+    # Key, Value because url doesn't return array
+    for key, value in response.items():
+        currentPowers.append(key)
+
     res = requests.get("https://dbd.tricky.lol/api/characters?role=killer")
     response = json.loads(res.text)
 
@@ -25,11 +33,14 @@ def killer():
             image = getImagePath(value["image"])
 
         # Sometimes killer is added to API before their DLC is
-        if value["dlc"] not in currentDLCs:
+        if value["dlc"] not in currentDLCs and value["item"] not in currentPowers:
             dlcID = None
             powerID = None
         else:
-            dlcID = value["dlc"].title()
+            if value["dlc"] != None:
+                dlcID = value["dlc"].title()
+            else:
+                dlcID = None
             powerID = value["item"]
 
         writer.writerow([key, dlcID, powerID, value["name"], difficulty[value["difficulty"]].value, gender[value["gender"]].value, value["bio"], value["story"], getSpeedMS(value["tunables"]["maxwalkspeed"]), getSpeedPercentage(value["tunables"]["maxwalkspeed"]), getTerrorRadius(value["tunables"]["terrorradius"]), image])
